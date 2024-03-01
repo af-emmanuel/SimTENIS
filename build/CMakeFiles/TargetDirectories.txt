@@ -1,0 +1,4 @@
+/home/emmanuel/myworkdir/simTENIS/build/CMakeFiles/exeTENIS.dir
+/home/emmanuel/myworkdir/simTENIS/build/CMakeFiles/simTENIS.dir
+/home/emmanuel/myworkdir/simTENIS/build/CMakeFiles/edit_cache.dir
+/home/emmanuel/myworkdir/simTENIS/build/CMakeFiles/rebuild_cache.dir
