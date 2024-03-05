@@ -399,6 +399,947 @@ CMakeFiles/exeTENIS.dir/TENISDetectorConstruction.cc.o: ../TENISDetectorConstruc
   /home/emmanuel/geant4-install/include/Geant4/G4Exp.hh \
   /home/emmanuel/geant4-install/include/Geant4/G4SystemOfUnits.hh
 
+CMakeFiles/exeTENIS.dir/TENISEvent.cc.o: ../TENISEvent.cc \
+  /usr/include/stdc-predef.h \
+  ../TENISEvent.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4UserEventAction.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Event.hh \
+  /usr/include/c++/11/set \
+  /usr/include/c++/11/bits/stl_tree.h \
+  /usr/include/c++/11/bits/stl_algobase.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
+  /usr/include/features.h \
+  /usr/include/features-time64.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
+  /usr/include/c++/11/pstl/pstl_config.h \
+  /usr/include/c++/11/bits/functexcept.h \
+  /usr/include/c++/11/bits/exception_defines.h \
+  /usr/include/c++/11/bits/cpp_type_traits.h \
+  /usr/include/c++/11/ext/type_traits.h \
+  /usr/include/c++/11/ext/numeric_traits.h \
+  /usr/include/c++/11/bits/stl_pair.h \
+  /usr/include/c++/11/bits/move.h \
+  /usr/include/c++/11/type_traits \
+  /usr/include/c++/11/bits/stl_iterator_base_types.h \
+  /usr/include/c++/11/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/11/bits/concept_check.h \
+  /usr/include/c++/11/debug/assertions.h \
+  /usr/include/c++/11/bits/stl_iterator.h \
+  /usr/include/c++/11/bits/ptr_traits.h \
+  /usr/include/c++/11/debug/debug.h \
+  /usr/include/c++/11/bits/predefined_ops.h \
+  /usr/include/c++/11/bits/allocator.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
+  /usr/include/c++/11/ext/new_allocator.h \
+  /usr/include/c++/11/new \
+  /usr/include/c++/11/bits/exception.h \
+  /usr/include/c++/11/bits/memoryfwd.h \
+  /usr/include/c++/11/bits/stl_function.h \
+  /usr/include/c++/11/backward/binders.h \
+  /usr/include/c++/11/ext/alloc_traits.h \
+  /usr/include/c++/11/bits/alloc_traits.h \
+  /usr/include/c++/11/bits/stl_construct.h \
+  /usr/include/c++/11/ext/aligned_buffer.h \
+  /usr/include/c++/11/bits/node_handle.h \
+  /usr/include/c++/11/bits/stl_set.h \
+  /usr/include/c++/11/initializer_list \
+  /usr/include/c++/11/bits/stl_multiset.h \
+  /usr/include/c++/11/bits/range_access.h \
+  /usr/include/c++/11/bits/erase_if.h \
+  /usr/include/c++/11/map \
+  /usr/include/c++/11/bits/stl_map.h \
+  /usr/include/c++/11/tuple \
+  /usr/include/c++/11/utility \
+  /usr/include/c++/11/bits/stl_relops.h \
+  /usr/include/c++/11/array \
+  /usr/include/c++/11/bits/uses_allocator.h \
+  /usr/include/c++/11/bits/invoke.h \
+  /usr/include/c++/11/bits/stl_multimap.h \
+  /home/emmanuel/geant4-install/include/Geant4/globals.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4ios.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Types.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4GlobalConfig.hh \
+  /usr/include/c++/11/complex \
+  /usr/include/c++/11/cmath \
+  /usr/include/math.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+  /usr/include/c++/11/bits/std_abs.h \
+  /usr/include/stdlib.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/c++/11/bits/specfun.h \
+  /usr/include/c++/11/limits \
+  /usr/include/c++/11/tr1/gamma.tcc \
+  /usr/include/c++/11/tr1/special_function_util.h \
+  /usr/include/c++/11/tr1/bessel_function.tcc \
+  /usr/include/c++/11/tr1/beta_function.tcc \
+  /usr/include/c++/11/tr1/ell_integral.tcc \
+  /usr/include/c++/11/tr1/exp_integral.tcc \
+  /usr/include/c++/11/tr1/hypergeometric.tcc \
+  /usr/include/c++/11/tr1/legendre_function.tcc \
+  /usr/include/c++/11/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/11/tr1/poly_hermite.tcc \
+  /usr/include/c++/11/tr1/poly_laguerre.tcc \
+  /usr/include/c++/11/tr1/riemann_zeta.tcc \
+  /usr/include/c++/11/sstream \
+  /usr/include/c++/11/istream \
+  /usr/include/c++/11/ios \
+  /usr/include/c++/11/iosfwd \
+  /usr/include/c++/11/bits/stringfwd.h \
+  /usr/include/c++/11/bits/postypes.h \
+  /usr/include/c++/11/cwchar \
+  /usr/include/wchar.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/c++/11/exception \
+  /usr/include/c++/11/bits/exception_ptr.h \
+  /usr/include/c++/11/bits/cxxabi_init_exception.h \
+  /usr/include/c++/11/typeinfo \
+  /usr/include/c++/11/bits/hash_bytes.h \
+  /usr/include/c++/11/bits/nested_exception.h \
+  /usr/include/c++/11/bits/char_traits.h \
+  /usr/include/c++/11/cstdint \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/c++/11/bits/localefwd.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
+  /usr/include/c++/11/clocale \
+  /usr/include/locale.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/c++/11/cctype \
+  /usr/include/ctype.h \
+  /usr/include/c++/11/bits/ios_base.h \
+  /usr/include/c++/11/ext/atomicity.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/time.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/timex.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /usr/include/c++/11/bits/locale_classes.h \
+  /usr/include/c++/11/string \
+  /usr/include/c++/11/bits/ostream_insert.h \
+  /usr/include/c++/11/bits/cxxabi_forced.h \
+  /usr/include/c++/11/bits/basic_string.h \
+  /usr/include/c++/11/string_view \
+  /usr/include/c++/11/bits/functional_hash.h \
+  /usr/include/c++/11/bits/string_view.tcc \
+  /usr/include/c++/11/ext/string_conversions.h \
+  /usr/include/c++/11/cstdlib \
+  /usr/include/c++/11/cstdio \
+  /usr/include/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/c++/11/cerrno \
+  /usr/include/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/c++/11/bits/charconv.h \
+  /usr/include/c++/11/bits/basic_string.tcc \
+  /usr/include/c++/11/bits/locale_classes.tcc \
+  /usr/include/c++/11/system_error \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
+  /usr/include/c++/11/stdexcept \
+  /usr/include/c++/11/streambuf \
+  /usr/include/c++/11/bits/streambuf.tcc \
+  /usr/include/c++/11/bits/basic_ios.h \
+  /usr/include/c++/11/bits/locale_facets.h \
+  /usr/include/c++/11/cwctype \
+  /usr/include/wctype.h \
+  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
+  /usr/include/c++/11/bits/streambuf_iterator.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
+  /usr/include/c++/11/bits/locale_facets.tcc \
+  /usr/include/c++/11/bits/basic_ios.tcc \
+  /usr/include/c++/11/ostream \
+  /usr/include/c++/11/bits/ostream.tcc \
+  /usr/include/c++/11/bits/istream.tcc \
+  /usr/include/c++/11/bits/sstream.tcc \
+  /home/emmanuel/geant4-install/include/Geant4/tls.hh \
+  /usr/include/c++/11/iostream \
+  /usr/include/c++/11/algorithm \
+  /usr/include/c++/11/bits/stl_algo.h \
+  /usr/include/c++/11/bits/algorithmfwd.h \
+  /usr/include/c++/11/bits/stl_heap.h \
+  /usr/include/c++/11/bits/stl_tempbuf.h \
+  /usr/include/c++/11/bits/uniform_int_dist.h \
+  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/11/functional \
+  /usr/include/c++/11/bits/refwrap.h \
+  /usr/include/c++/11/bits/std_function.h \
+  /usr/include/c++/11/unordered_map \
+  /usr/include/c++/11/bits/hashtable.h \
+  /usr/include/c++/11/bits/hashtable_policy.h \
+  /usr/include/c++/11/bits/enable_special_members.h \
+  /usr/include/c++/11/bits/unordered_map.h \
+  /usr/include/c++/11/vector \
+  /usr/include/c++/11/bits/stl_uninitialized.h \
+  /usr/include/c++/11/bits/stl_vector.h \
+  /usr/include/c++/11/bits/stl_bvector.h \
+  /usr/include/c++/11/bits/vector.tcc \
+  /usr/include/c++/11/pstl/execution_defs.h \
+  /home/emmanuel/geant4-install/include/Geant4/G4String.hh \
+  /usr/include/c++/11/cstring \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /home/emmanuel/geant4-install/include/Geant4/G4String.icc \
+  /home/emmanuel/geant4-install/include/Geant4/templates.hh \
+  /usr/include/c++/11/climits \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
+  /usr/include/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /home/emmanuel/geant4-install/include/Geant4/G4Exception.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4ExceptionSeverity.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4EnvironmentUtils.hh \
+  /usr/include/c++/11/iomanip \
+  /usr/include/c++/11/locale \
+  /usr/include/c++/11/bits/locale_facets_nonio.h \
+  /usr/include/c++/11/ctime \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
+  /usr/include/libintl.h \
+  /usr/include/c++/11/bits/codecvt.h \
+  /usr/include/c++/11/bits/locale_facets_nonio.tcc \
+  /usr/include/c++/11/bits/locale_conv.h \
+  /usr/include/c++/11/bits/unique_ptr.h \
+  /usr/include/c++/11/bits/quoted_string.h \
+  /usr/include/c++/11/mutex \
+  /usr/include/c++/11/chrono \
+  /usr/include/c++/11/ratio \
+  /usr/include/c++/11/bits/parse_numbers.h \
+  /usr/include/c++/11/bits/std_mutex.h \
+  /usr/include/c++/11/bits/unique_lock.h \
+  /home/emmanuel/geant4-install/include/Geant4/evtdefs.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Allocator.hh \
+  /usr/include/c++/11/cstddef \
+  /home/emmanuel/geant4-install/include/Geant4/G4AllocatorPool.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4PrimaryVertex.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4PrimaryParticle.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4ThreeVector.hh \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/ThreeVector.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Utility/defs.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/ThreeVector.icc \
+  /home/emmanuel/geant4-install/include/Geant4/pwdefs.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4HCofThisEvent.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4VHitsCollection.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4DCofThisEvent.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4VDigiCollection.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4TrajectoryContainer.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4VTrajectory.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4VUserEventInformation.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Profiler.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Profiler.icc \
+  /home/emmanuel/geant4-install/include/Geant4/PTL/Globals.hh \
+  /home/emmanuel/geant4-install/include/Geant4/PTL/Types.hh \
+  /home/emmanuel/geant4-install/include/Geant4/PTL/Utility.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4AnalysisManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4GenericAnalysisManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4ToolsAnalysisManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4VAnalysisManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4AnalysisManagerState.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4AnalysisVerbose.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Threading.hh \
+  /usr/include/c++/11/condition_variable \
+  /usr/include/c++/11/bits/shared_ptr.h \
+  /usr/include/c++/11/bits/shared_ptr_base.h \
+  /usr/include/c++/11/bits/allocated_ptr.h \
+  /usr/include/c++/11/ext/concurrence.h \
+  /usr/include/c++/11/future \
+  /usr/include/c++/11/atomic \
+  /usr/include/c++/11/bits/atomic_base.h \
+  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/11/bits/atomic_futex.h \
+  /usr/include/c++/11/bits/std_thread.h \
+  /usr/include/c++/11/thread \
+  /usr/include/c++/11/bits/this_thread_sleep.h \
+  /home/emmanuel/geant4-install/include/Geant4/G4AnalysisUtilities.hh \
+  /usr/include/c++/11/memory \
+  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/11/bits/align.h \
+  /usr/include/c++/11/bit \
+  /usr/include/c++/11/bits/shared_ptr_atomic.h \
+  /usr/include/c++/11/backward/auto_ptr.h \
+  /usr/include/c++/11/pstl/glue_memory_defs.h \
+  /usr/include/c++/11/fstream \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
+  /usr/include/c++/11/bits/fstream.tcc \
+  /home/emmanuel/geant4-install/include/Geant4/G4VTBaseHnManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4HnInformation.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4BinScheme.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Fcn.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4VAnalysisManager.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4HnManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4BaseAnalysisManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4NtupleBookingManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/tools/ntuple_booking \
+  /home/emmanuel/geant4-install/include/Geant4/tools/cids \
+  /home/emmanuel/geant4-install/include/Geant4/tools/cid \
+  /home/emmanuel/geant4-install/include/Geant4/tools/typedefs \
+  /home/emmanuel/geant4-install/include/Geant4/tools/forit \
+  /home/emmanuel/geant4-install/include/Geant4/G4NtupleBookingManager.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4VNtupleManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4VFileManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4BaseFileManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4VTHnFileManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4TH1ToolsManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4THnToolsManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4THnManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4THnManager.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4AutoLock.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4THnMessenger.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4UImessenger.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4UIdirectory.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4UIcommand.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4ApplicationState.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4UIparameter.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4UItokenNum.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4THnToolsManager.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4THnMessenger.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4Tokenizer.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4TH2ToolsManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4TH3ToolsManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4TP1ToolsManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4TP2ToolsManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/tools/histo/h1d \
+  /home/emmanuel/geant4-install/include/Geant4/tools/histo/h1 \
+  /home/emmanuel/geant4-install/include/Geant4/tools/histo/b1 \
+  /home/emmanuel/geant4-install/include/Geant4/tools/histo/base_histo \
+  /home/emmanuel/geant4-install/include/Geant4/tools/histo/histo_data \
+  /home/emmanuel/geant4-install/include/Geant4/tools/histo/axes \
+  /home/emmanuel/geant4-install/include/Geant4/tools/histo/axis \
+  /home/emmanuel/geant4-install/include/Geant4/tools/eqT \
+  /home/emmanuel/geant4-install/include/Geant4/tools/histo/h2d \
+  /home/emmanuel/geant4-install/include/Geant4/tools/histo/h2 \
+  /home/emmanuel/geant4-install/include/Geant4/tools/histo/b2 \
+  /home/emmanuel/geant4-install/include/Geant4/tools/histo/h3d \
+  /home/emmanuel/geant4-install/include/Geant4/tools/histo/h3 \
+  /home/emmanuel/geant4-install/include/Geant4/tools/histo/b3 \
+  /home/emmanuel/geant4-install/include/Geant4/tools/histo/p1d \
+  /home/emmanuel/geant4-install/include/Geant4/tools/histo/p1 \
+  /home/emmanuel/geant4-install/include/Geant4/tools/histo/profile_data \
+  /home/emmanuel/geant4-install/include/Geant4/tools/histo/p2d \
+  /home/emmanuel/geant4-install/include/Geant4/tools/histo/p2 \
+  /home/emmanuel/geant4-install/include/Geant4/G4ToolsAnalysisManager.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4GenericAnalysisManager.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4GenericFileManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4GenericFileManager.icc \
+  ../run.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4UserRunAction.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Run.hh
+
+CMakeFiles/exeTENIS.dir/TENISSteppingAction.cc.o: ../TENISSteppingAction.cc \
+  /usr/include/stdc-predef.h \
+  ../TENISSteppingAction.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4UserSteppingAction.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Step.hh \
+  /usr/include/c++/11/cstdlib \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
+  /usr/include/features.h \
+  /usr/include/features-time64.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
+  /usr/include/c++/11/pstl/pstl_config.h \
+  /usr/include/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/c++/11/bits/std_abs.h \
+  /usr/include/c++/11/cmath \
+  /usr/include/c++/11/bits/cpp_type_traits.h \
+  /usr/include/c++/11/ext/type_traits.h \
+  /usr/include/math.h \
+  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+  /usr/include/c++/11/bits/specfun.h \
+  /usr/include/c++/11/bits/stl_algobase.h \
+  /usr/include/c++/11/bits/functexcept.h \
+  /usr/include/c++/11/bits/exception_defines.h \
+  /usr/include/c++/11/ext/numeric_traits.h \
+  /usr/include/c++/11/bits/stl_pair.h \
+  /usr/include/c++/11/bits/move.h \
+  /usr/include/c++/11/type_traits \
+  /usr/include/c++/11/bits/stl_iterator_base_types.h \
+  /usr/include/c++/11/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/11/bits/concept_check.h \
+  /usr/include/c++/11/debug/assertions.h \
+  /usr/include/c++/11/bits/stl_iterator.h \
+  /usr/include/c++/11/bits/ptr_traits.h \
+  /usr/include/c++/11/debug/debug.h \
+  /usr/include/c++/11/bits/predefined_ops.h \
+  /usr/include/c++/11/limits \
+  /usr/include/c++/11/tr1/gamma.tcc \
+  /usr/include/c++/11/tr1/special_function_util.h \
+  /usr/include/c++/11/tr1/bessel_function.tcc \
+  /usr/include/c++/11/tr1/beta_function.tcc \
+  /usr/include/c++/11/tr1/ell_integral.tcc \
+  /usr/include/c++/11/tr1/exp_integral.tcc \
+  /usr/include/c++/11/tr1/hypergeometric.tcc \
+  /usr/include/c++/11/tr1/legendre_function.tcc \
+  /usr/include/c++/11/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/11/tr1/poly_hermite.tcc \
+  /usr/include/c++/11/tr1/poly_laguerre.tcc \
+  /usr/include/c++/11/tr1/riemann_zeta.tcc \
+  /home/emmanuel/geant4-install/include/Geant4/G4ios.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Types.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4GlobalConfig.hh \
+  /usr/include/c++/11/complex \
+  /usr/include/c++/11/sstream \
+  /usr/include/c++/11/istream \
+  /usr/include/c++/11/ios \
+  /usr/include/c++/11/iosfwd \
+  /usr/include/c++/11/bits/stringfwd.h \
+  /usr/include/c++/11/bits/memoryfwd.h \
+  /usr/include/c++/11/bits/postypes.h \
+  /usr/include/c++/11/cwchar \
+  /usr/include/wchar.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/c++/11/exception \
+  /usr/include/c++/11/bits/exception.h \
+  /usr/include/c++/11/bits/exception_ptr.h \
+  /usr/include/c++/11/bits/cxxabi_init_exception.h \
+  /usr/include/c++/11/typeinfo \
+  /usr/include/c++/11/bits/hash_bytes.h \
+  /usr/include/c++/11/new \
+  /usr/include/c++/11/bits/nested_exception.h \
+  /usr/include/c++/11/bits/char_traits.h \
+  /usr/include/c++/11/cstdint \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/c++/11/bits/localefwd.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
+  /usr/include/c++/11/clocale \
+  /usr/include/locale.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/c++/11/cctype \
+  /usr/include/ctype.h \
+  /usr/include/c++/11/bits/ios_base.h \
+  /usr/include/c++/11/ext/atomicity.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/time.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/timex.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /usr/include/c++/11/bits/locale_classes.h \
+  /usr/include/c++/11/string \
+  /usr/include/c++/11/bits/allocator.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
+  /usr/include/c++/11/ext/new_allocator.h \
+  /usr/include/c++/11/bits/ostream_insert.h \
+  /usr/include/c++/11/bits/cxxabi_forced.h \
+  /usr/include/c++/11/bits/stl_function.h \
+  /usr/include/c++/11/backward/binders.h \
+  /usr/include/c++/11/bits/range_access.h \
+  /usr/include/c++/11/initializer_list \
+  /usr/include/c++/11/bits/basic_string.h \
+  /usr/include/c++/11/ext/alloc_traits.h \
+  /usr/include/c++/11/bits/alloc_traits.h \
+  /usr/include/c++/11/bits/stl_construct.h \
+  /usr/include/c++/11/string_view \
+  /usr/include/c++/11/bits/functional_hash.h \
+  /usr/include/c++/11/bits/string_view.tcc \
+  /usr/include/c++/11/ext/string_conversions.h \
+  /usr/include/c++/11/cstdio \
+  /usr/include/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/c++/11/cerrno \
+  /usr/include/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/c++/11/bits/charconv.h \
+  /usr/include/c++/11/bits/basic_string.tcc \
+  /usr/include/c++/11/bits/locale_classes.tcc \
+  /usr/include/c++/11/system_error \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
+  /usr/include/c++/11/stdexcept \
+  /usr/include/c++/11/streambuf \
+  /usr/include/c++/11/bits/streambuf.tcc \
+  /usr/include/c++/11/bits/basic_ios.h \
+  /usr/include/c++/11/bits/locale_facets.h \
+  /usr/include/c++/11/cwctype \
+  /usr/include/wctype.h \
+  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
+  /usr/include/c++/11/bits/streambuf_iterator.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
+  /usr/include/c++/11/bits/locale_facets.tcc \
+  /usr/include/c++/11/bits/basic_ios.tcc \
+  /usr/include/c++/11/ostream \
+  /usr/include/c++/11/bits/ostream.tcc \
+  /usr/include/c++/11/bits/istream.tcc \
+  /usr/include/c++/11/bits/sstream.tcc \
+  /home/emmanuel/geant4-install/include/Geant4/tls.hh \
+  /usr/include/c++/11/iostream \
+  /usr/include/c++/11/iomanip \
+  /usr/include/c++/11/locale \
+  /usr/include/c++/11/bits/locale_facets_nonio.h \
+  /usr/include/c++/11/ctime \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
+  /usr/include/libintl.h \
+  /usr/include/c++/11/bits/codecvt.h \
+  /usr/include/c++/11/bits/locale_facets_nonio.tcc \
+  /usr/include/c++/11/bits/locale_conv.h \
+  /usr/include/c++/11/bits/unique_ptr.h \
+  /usr/include/c++/11/utility \
+  /usr/include/c++/11/bits/stl_relops.h \
+  /usr/include/c++/11/tuple \
+  /usr/include/c++/11/array \
+  /usr/include/c++/11/bits/uses_allocator.h \
+  /usr/include/c++/11/bits/invoke.h \
+  /usr/include/c++/11/bits/quoted_string.h \
+  /home/emmanuel/geant4-install/include/Geant4/globals.hh \
+  /usr/include/c++/11/algorithm \
+  /usr/include/c++/11/bits/stl_algo.h \
+  /usr/include/c++/11/bits/algorithmfwd.h \
+  /usr/include/c++/11/bits/stl_heap.h \
+  /usr/include/c++/11/bits/stl_tempbuf.h \
+  /usr/include/c++/11/bits/uniform_int_dist.h \
+  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/11/functional \
+  /usr/include/c++/11/bits/refwrap.h \
+  /usr/include/c++/11/bits/std_function.h \
+  /usr/include/c++/11/unordered_map \
+  /usr/include/c++/11/ext/aligned_buffer.h \
+  /usr/include/c++/11/bits/hashtable.h \
+  /usr/include/c++/11/bits/hashtable_policy.h \
+  /usr/include/c++/11/bits/enable_special_members.h \
+  /usr/include/c++/11/bits/node_handle.h \
+  /usr/include/c++/11/bits/unordered_map.h \
+  /usr/include/c++/11/bits/erase_if.h \
+  /usr/include/c++/11/vector \
+  /usr/include/c++/11/bits/stl_uninitialized.h \
+  /usr/include/c++/11/bits/stl_vector.h \
+  /usr/include/c++/11/bits/stl_bvector.h \
+  /usr/include/c++/11/bits/vector.tcc \
+  /usr/include/c++/11/pstl/execution_defs.h \
+  /home/emmanuel/geant4-install/include/Geant4/G4String.hh \
+  /usr/include/c++/11/cstring \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /home/emmanuel/geant4-install/include/Geant4/G4String.icc \
+  /home/emmanuel/geant4-install/include/Geant4/templates.hh \
+  /usr/include/c++/11/climits \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
+  /usr/include/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /home/emmanuel/geant4-install/include/Geant4/G4Exception.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4ExceptionSeverity.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4EnvironmentUtils.hh \
+  /usr/include/c++/11/map \
+  /usr/include/c++/11/bits/stl_tree.h \
+  /usr/include/c++/11/bits/stl_map.h \
+  /usr/include/c++/11/bits/stl_multimap.h \
+  /usr/include/c++/11/mutex \
+  /usr/include/c++/11/chrono \
+  /usr/include/c++/11/ratio \
+  /usr/include/c++/11/bits/parse_numbers.h \
+  /usr/include/c++/11/bits/std_mutex.h \
+  /usr/include/c++/11/bits/unique_lock.h \
+  /home/emmanuel/geant4-install/include/Geant4/G4ThreeVector.hh \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/ThreeVector.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Utility/defs.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/ThreeVector.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4VPhysicalVolume.hh \
+  /home/emmanuel/geant4-install/include/Geant4/geomdefs.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4RotationMatrix.hh \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/Rotation.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/RotationInterfaces.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/LorentzVector.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/LorentzVector.icc \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/AxisAngle.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/AxisAngle.icc \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/RotationInterfaces.icc \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/RotationX.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/RotationX.icc \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Units/PhysicalConstants.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Units/SystemOfUnits.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/RotationY.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/RotationY.icc \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/RotationZ.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/RotationZ.icc \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/Rotation.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4GeomSplitter.hh \
+  /home/emmanuel/geant4-install/include/Geant4/geomwdefs.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4AutoLock.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Threading.hh \
+  /usr/include/c++/11/condition_variable \
+  /usr/include/c++/11/bits/shared_ptr.h \
+  /usr/include/c++/11/bits/shared_ptr_base.h \
+  /usr/include/c++/11/bits/allocated_ptr.h \
+  /usr/include/c++/11/ext/concurrence.h \
+  /usr/include/c++/11/future \
+  /usr/include/c++/11/atomic \
+  /usr/include/c++/11/bits/atomic_base.h \
+  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/11/bits/atomic_futex.h \
+  /usr/include/c++/11/bits/std_thread.h \
+  /usr/include/c++/11/thread \
+  /usr/include/c++/11/bits/this_thread_sleep.h \
+  /home/emmanuel/geant4-install/include/Geant4/G4VPhysicalVolume.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4StepPoint.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Allocator.hh \
+  /usr/include/c++/11/cstddef \
+  /home/emmanuel/geant4-install/include/Geant4/G4AllocatorPool.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4SteppingControl.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4StepStatus.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4TouchableHandle.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4VTouchable.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4TouchableHistory.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4NavigationHistory.hh \
+  /usr/include/assert.h \
+  /home/emmanuel/geant4-install/include/Geant4/G4AffineTransform.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Transform3D.hh \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Geometry/Transform3D.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Geometry/Transform3D.icc \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Geometry/Point3D.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Geometry/Vector3D.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Geometry/Normal3D.h \
+  /home/emmanuel/geant4-install/include/Geant4/G4AffineTransform.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4NavigationLevel.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4NavigationLevelRep.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4NavigationLevelRep.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4NavigationLevel.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4NavigationHistoryPool.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4NavigationHistory.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4LogicalVolume.hh \
+  /usr/include/c++/11/memory \
+  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/11/bits/align.h \
+  /usr/include/c++/11/bit \
+  /usr/include/c++/11/bits/shared_ptr_atomic.h \
+  /usr/include/c++/11/backward/auto_ptr.h \
+  /usr/include/c++/11/pstl/glue_memory_defs.h \
+  /home/emmanuel/geant4-install/include/Geant4/G4Region.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Region.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4LogicalVolume.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4TouchableHistory.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4ReferenceCountedHandle.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Material.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Element.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4ElementTable.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4ElementVector.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4IonisParamElm.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Isotope.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4IsotopeVector.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4IonisParamMat.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4DensityEffectCalculator.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4MaterialPropertiesTable.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4MaterialPropertiesIndex.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4MaterialPropertyVector.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4PhysicsFreeVector.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4PhysicsVector.hh \
+  /usr/include/c++/11/fstream \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
+  /usr/include/c++/11/bits/fstream.tcc \
+  /home/emmanuel/geant4-install/include/Geant4/G4Log.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4PhysicsVectorType.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4PhysicsVector.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4MaterialTable.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4SandiaTable.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4OrderedTable.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4DataVector.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4DataVector.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4StepPoint.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4TrackVector.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Profiler.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Profiler.icc \
+  /home/emmanuel/geant4-install/include/Geant4/PTL/Globals.hh \
+  /home/emmanuel/geant4-install/include/Geant4/PTL/Types.hh \
+  /home/emmanuel/geant4-install/include/Geant4/PTL/Utility.hh \
+  /usr/include/c++/11/set \
+  /usr/include/c++/11/bits/stl_set.h \
+  /usr/include/c++/11/bits/stl_multiset.h \
+  /home/emmanuel/geant4-install/include/Geant4/G4Step.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4Track.hh \
+  /home/emmanuel/geant4-install/include/Geant4/trkdefs.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4DynamicParticle.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4ElectronOccupancy.hh \
+  /home/emmanuel/geant4-install/include/Geant4/pwdefs.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4LorentzVector.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4ParticleDefinition.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4PDefManager.hh \
+  /usr/include/c++/11/stdlib.h \
+  /home/emmanuel/geant4-install/include/Geant4/G4ParticleDefinition.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4ParticleMomentum.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4DynamicParticle.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4TrackStatus.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4VUserTrackInformation.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4PhysicsModelCatalog.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Track.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4Step.hh \
+  ../TENISDetectorConstruction.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4VUserDetectorConstruction.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4VPhysicalVolume.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4LogicalVolume.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Box.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4GeomTypes.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4GeomConfig.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4CSGSolid.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4VSolid.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4VSolid.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4Polyhedron.hh \
+  /home/emmanuel/geant4-install/include/Geant4/HepPolyhedron.h \
+  /home/emmanuel/geant4-install/include/Geant4/G4TwoVector.hh \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/TwoVector.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/TwoVector.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4Point3D.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Normal3D.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Visible.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Visible.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4Box.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4PVPlacement.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4NistManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4ICRU90StoppingData.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4NistElementBuilder.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4NistMaterialBuilder.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Pow.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Exp.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4SystemOfUnits.hh \
+  ../TENISEvent.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4UserEventAction.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Event.hh \
+  /home/emmanuel/geant4-install/include/Geant4/evtdefs.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4PrimaryVertex.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4PrimaryParticle.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4HCofThisEvent.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4VHitsCollection.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4DCofThisEvent.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4VDigiCollection.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4TrajectoryContainer.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4VTrajectory.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4VUserEventInformation.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4AnalysisManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4GenericAnalysisManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4ToolsAnalysisManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4VAnalysisManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4AnalysisManagerState.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4AnalysisVerbose.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4AnalysisUtilities.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4VTBaseHnManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4HnInformation.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4BinScheme.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Fcn.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4VAnalysisManager.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4HnManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4BaseAnalysisManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4NtupleBookingManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/tools/ntuple_booking \
+  /home/emmanuel/geant4-install/include/Geant4/tools/cids \
+  /home/emmanuel/geant4-install/include/Geant4/tools/cid \
+  /home/emmanuel/geant4-install/include/Geant4/tools/typedefs \
+  /home/emmanuel/geant4-install/include/Geant4/tools/forit \
+  /home/emmanuel/geant4-install/include/Geant4/G4NtupleBookingManager.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4VNtupleManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4VFileManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4BaseFileManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4VTHnFileManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4TH1ToolsManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4THnToolsManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4THnManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4THnManager.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4THnMessenger.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4UImessenger.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4UIdirectory.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4UIcommand.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4ApplicationState.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4UIparameter.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4UItokenNum.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4THnToolsManager.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4THnMessenger.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4Tokenizer.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4TH2ToolsManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4TH3ToolsManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4TP1ToolsManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4TP2ToolsManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/tools/histo/h1d \
+  /home/emmanuel/geant4-install/include/Geant4/tools/histo/h1 \
+  /home/emmanuel/geant4-install/include/Geant4/tools/histo/b1 \
+  /home/emmanuel/geant4-install/include/Geant4/tools/histo/base_histo \
+  /home/emmanuel/geant4-install/include/Geant4/tools/histo/histo_data \
+  /home/emmanuel/geant4-install/include/Geant4/tools/histo/axes \
+  /home/emmanuel/geant4-install/include/Geant4/tools/histo/axis \
+  /home/emmanuel/geant4-install/include/Geant4/tools/eqT \
+  /home/emmanuel/geant4-install/include/Geant4/tools/histo/h2d \
+  /home/emmanuel/geant4-install/include/Geant4/tools/histo/h2 \
+  /home/emmanuel/geant4-install/include/Geant4/tools/histo/b2 \
+  /home/emmanuel/geant4-install/include/Geant4/tools/histo/h3d \
+  /home/emmanuel/geant4-install/include/Geant4/tools/histo/h3 \
+  /home/emmanuel/geant4-install/include/Geant4/tools/histo/b3 \
+  /home/emmanuel/geant4-install/include/Geant4/tools/histo/p1d \
+  /home/emmanuel/geant4-install/include/Geant4/tools/histo/p1 \
+  /home/emmanuel/geant4-install/include/Geant4/tools/histo/profile_data \
+  /home/emmanuel/geant4-install/include/Geant4/tools/histo/p2d \
+  /home/emmanuel/geant4-install/include/Geant4/tools/histo/p2 \
+  /home/emmanuel/geant4-install/include/Geant4/G4ToolsAnalysisManager.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4GenericAnalysisManager.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4GenericFileManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4GenericFileManager.icc \
+  ../run.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4UserRunAction.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Run.hh
+
 CMakeFiles/exeTENIS.dir/TENISaction.cc.o: ../TENISaction.cc \
   /usr/include/stdc-predef.h \
   ../TENISaction.hh \
@@ -964,8 +1905,36 @@ CMakeFiles/exeTENIS.dir/TENISaction.cc.o: ../TENISaction.cc \
   /home/emmanuel/geant4-install/include/Geant4/trkgdefs.hh \
   /home/emmanuel/geant4-install/include/Geant4/G4TrackingMessenger.hh \
   /home/emmanuel/geant4-install/include/Geant4/G4UserTrackingAction.hh \
-  ../run.hh \
-  /home/emmanuel/geant4-install/include/Geant4/G4UserRunAction.hh \
+  ../TENISSteppingAction.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4UserSteppingAction.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Step.hh \
+  ../TENISDetectorConstruction.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4VUserDetectorConstruction.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4VPhysicalVolume.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4LogicalVolume.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Box.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4GeomTypes.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4GeomConfig.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4CSGSolid.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Polyhedron.hh \
+  /home/emmanuel/geant4-install/include/Geant4/HepPolyhedron.h \
+  /home/emmanuel/geant4-install/include/Geant4/G4TwoVector.hh \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/TwoVector.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/TwoVector.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4Point3D.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Normal3D.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Visible.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Visible.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4Box.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4PVPlacement.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4NistManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4ICRU90StoppingData.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4NistElementBuilder.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4NistMaterialBuilder.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Pow.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Exp.hh \
+  ../TENISEvent.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4UserEventAction.hh \
   /home/emmanuel/geant4-install/include/Geant4/G4AnalysisManager.hh \
   /home/emmanuel/geant4-install/include/Geant4/G4GenericAnalysisManager.hh \
   /home/emmanuel/geant4-install/include/Geant4/G4ToolsAnalysisManager.hh \
@@ -1026,6 +1995,8 @@ CMakeFiles/exeTENIS.dir/TENISaction.cc.o: ../TENISaction.cc \
   /home/emmanuel/geant4-install/include/Geant4/G4GenericAnalysisManager.icc \
   /home/emmanuel/geant4-install/include/Geant4/G4GenericFileManager.hh \
   /home/emmanuel/geant4-install/include/Geant4/G4GenericFileManager.icc \
+  ../run.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4UserRunAction.hh \
   /home/emmanuel/geant4-install/include/Geant4/G4Run.hh
 
 CMakeFiles/exeTENIS.dir/TENISgenerator.cc.o: ../TENISgenerator.cc \
@@ -3202,7 +4173,75 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
   /home/emmanuel/geant4-install/include/Geant4/G4SPSEneDistribution.hh \
   /home/emmanuel/geant4-install/include/Geant4/G4GeneralParticleSourceMessenger.hh \
   /home/emmanuel/geant4-install/include/Geant4/G4GeneralParticleSourceData.hh \
-  /home/emmanuel/geant4-install/include/Geant4/G4EventManager.hh
+  /home/emmanuel/geant4-install/include/Geant4/G4EventManager.hh \
+  ../TENISSteppingAction.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4UserSteppingAction.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Step.hh \
+  ../TENISEvent.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4UserEventAction.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4AnalysisManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4GenericAnalysisManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4ToolsAnalysisManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4VAnalysisManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4AnalysisManagerState.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4AnalysisVerbose.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4AnalysisUtilities.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4VTBaseHnManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4HnInformation.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4BinScheme.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Fcn.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4VAnalysisManager.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4HnManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4BaseAnalysisManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4NtupleBookingManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/tools/ntuple_booking \
+  /home/emmanuel/geant4-install/include/Geant4/tools/cids \
+  /home/emmanuel/geant4-install/include/Geant4/tools/cid \
+  /home/emmanuel/geant4-install/include/Geant4/tools/typedefs \
+  /home/emmanuel/geant4-install/include/Geant4/tools/forit \
+  /home/emmanuel/geant4-install/include/Geant4/G4NtupleBookingManager.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4VNtupleManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4VFileManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4BaseFileManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4VTHnFileManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4TH1ToolsManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4THnToolsManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4THnManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4THnManager.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4THnMessenger.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4THnToolsManager.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4THnMessenger.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4Tokenizer.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4TH2ToolsManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4TH3ToolsManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4TP1ToolsManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4TP2ToolsManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/tools/histo/h1d \
+  /home/emmanuel/geant4-install/include/Geant4/tools/histo/h1 \
+  /home/emmanuel/geant4-install/include/Geant4/tools/histo/b1 \
+  /home/emmanuel/geant4-install/include/Geant4/tools/histo/base_histo \
+  /home/emmanuel/geant4-install/include/Geant4/tools/histo/histo_data \
+  /home/emmanuel/geant4-install/include/Geant4/tools/histo/axes \
+  /home/emmanuel/geant4-install/include/Geant4/tools/histo/axis \
+  /home/emmanuel/geant4-install/include/Geant4/tools/eqT \
+  /home/emmanuel/geant4-install/include/Geant4/tools/histo/h2d \
+  /home/emmanuel/geant4-install/include/Geant4/tools/histo/h2 \
+  /home/emmanuel/geant4-install/include/Geant4/tools/histo/b2 \
+  /home/emmanuel/geant4-install/include/Geant4/tools/histo/h3d \
+  /home/emmanuel/geant4-install/include/Geant4/tools/histo/h3 \
+  /home/emmanuel/geant4-install/include/Geant4/tools/histo/b3 \
+  /home/emmanuel/geant4-install/include/Geant4/tools/histo/p1d \
+  /home/emmanuel/geant4-install/include/Geant4/tools/histo/p1 \
+  /home/emmanuel/geant4-install/include/Geant4/tools/histo/profile_data \
+  /home/emmanuel/geant4-install/include/Geant4/tools/histo/p2d \
+  /home/emmanuel/geant4-install/include/Geant4/tools/histo/p2 \
+  /home/emmanuel/geant4-install/include/Geant4/G4ToolsAnalysisManager.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4GenericAnalysisManager.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4GenericFileManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4GenericFileManager.icc \
+  ../run.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4UserRunAction.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Run.hh
 
 
 /home/emmanuel/geant4-install/include/Geant4/G4UIbatch.hh:
@@ -3266,8 +4305,6 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 /home/emmanuel/geant4-install/include/Geant4/G4VisExecutive.hh:
 
 /home/emmanuel/geant4-install/include/Geant4/G4VUIshell.hh:
-
-/home/emmanuel/geant4-install/include/Geant4/G4UIExecutive.hh:
 
 /home/emmanuel/geant4-install/include/Geant4/G4TrajectoriesModel.hh:
 
@@ -3465,88 +4502,6 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 ../TENISgenerator.cc:
 
-/home/emmanuel/geant4-install/include/Geant4/G4Run.hh:
-
-/home/emmanuel/geant4-install/include/Geant4/G4GenericFileManager.icc:
-
-/home/emmanuel/geant4-install/include/Geant4/G4GenericAnalysisManager.icc:
-
-/home/emmanuel/geant4-install/include/Geant4/G4ToolsAnalysisManager.icc:
-
-/home/emmanuel/geant4-install/include/Geant4/tools/histo/p2:
-
-/home/emmanuel/geant4-install/include/Geant4/tools/histo/p1:
-
-/home/emmanuel/geant4-install/include/Geant4/tools/histo/h3d:
-
-/home/emmanuel/geant4-install/include/Geant4/G4Tubs.hh:
-
-/home/emmanuel/geant4-install/include/Geant4/tools/histo/axis:
-
-/home/emmanuel/geant4-install/include/Geant4/tools/histo/histo_data:
-
-/home/emmanuel/geant4-install/include/Geant4/tools/histo/b1:
-
-/home/emmanuel/geant4-install/include/Geant4/tools/histo/h1:
-
-/home/emmanuel/geant4-install/include/Geant4/tools/histo/h1d:
-
-/home/emmanuel/geant4-install/include/Geant4/G4VSceneHandler.hh:
-
-/home/emmanuel/geant4-install/include/Geant4/G4THnMessenger.icc:
-
-/home/emmanuel/geant4-install/include/Geant4/G4THnMessenger.hh:
-
-/home/emmanuel/geant4-install/include/Geant4/G4THnManager.icc:
-
-/home/emmanuel/geant4-install/include/Geant4/G4THnToolsManager.hh:
-
-/home/emmanuel/geant4-install/include/Geant4/G4TH1ToolsManager.hh:
-
-/home/emmanuel/geant4-install/include/Geant4/G4VTHnFileManager.hh:
-
-/home/emmanuel/geant4-install/include/Geant4/G4VNtupleManager.hh:
-
-/home/emmanuel/geant4-install/include/Geant4/G4NtupleBookingManager.icc:
-
-/home/emmanuel/geant4-install/include/Geant4/tools/forit:
-
-/home/emmanuel/geant4-install/include/Geant4/tools/cids:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobalstatic.h:
-
-/home/emmanuel/geant4-install/include/Geant4/G4NtupleBookingManager.hh:
-
-/home/emmanuel/geant4-install/include/Geant4/G4BaseAnalysisManager.hh:
-
-/home/emmanuel/geant4-install/include/Geant4/G4ToolsSGOffscreen.hh:
-
-/home/emmanuel/geant4-install/include/Geant4/G4VAnalysisManager.icc:
-
-/home/emmanuel/geant4-install/include/Geant4/G4BinScheme.hh:
-
-/home/emmanuel/geant4-install/include/Geant4/G4HnInformation.hh:
-
-/home/emmanuel/geant4-install/include/Geant4/G4VMarker.hh:
-
-/home/emmanuel/geant4-install/include/Geant4/G4VTBaseHnManager.hh:
-
-/home/emmanuel/geant4-install/include/Geant4/tools/histo/h2:
-
-/home/emmanuel/geant4-install/include/Geant4/G4AnalysisVerbose.hh:
-
-/home/emmanuel/geant4-install/include/Geant4/G4AnalysisManagerState.hh:
-
-/home/emmanuel/geant4-install/include/Geant4/G4ToolsAnalysisManager.hh:
-
-/home/emmanuel/geant4-install/include/Geant4/G4GenericAnalysisManager.hh:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigval_t.h:
-
-/home/emmanuel/geant4-install/include/Geant4/G4UserRunAction.hh:
-
-../run.hh:
-
 /home/emmanuel/geant4-install/include/Geant4/G4UserTrackingAction.hh:
 
 /home/emmanuel/geant4-install/include/Geant4/G4VSteppingVerbose.hh:
@@ -3579,14 +4534,6 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandGamma.icc:
 
-/home/emmanuel/geant4-install/include/Geant4/tools/histo/axes:
-
-/home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandGamma.h:
-
-/home/emmanuel/geant4-install/include/Geant4/tools/histo/p2d:
-
-/home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandBit.icc:
-
 /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandBit.h:
 
 /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandExponential.icc:
@@ -3599,15 +4546,111 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandFlat.h:
 
-/usr/include/string.h:
+/home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandBreitWigner.h:
 
-/home/emmanuel/geant4-install/include/Geant4/G4String.hh:
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h:
+
+/home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandBinomial.icc:
+
+/home/emmanuel/geant4-install/include/Geant4/CLHEP/Utility/memory.h:
+
+/home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/Random.h:
+
+/home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandBinomial.h:
+
+/home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RanluxppEngine.h:
+
+/home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/Ranlux64Engine.h:
+
+/home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RanecuEngine.h:
+
+/home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/MTwistEngine.h:
+
+/home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/JamesRandom.h:
+
+/home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandomEngine.icc:
+
+/home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/DualRand.h:
+
+/home/emmanuel/geant4-install/include/Geant4/G4VProcess.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4TrackingManager.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4SubEventTrackStack.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4TrackStack.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4StackedTrack.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4ClassificationOfNewTrack.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4UserStackingAction.hh:
+
+/usr/include/x86_64-linux-gnu/sys/ucontext.h:
+
+/home/emmanuel/geant4-install/include/Geant4/G4StackManager.hh:
+
+/usr/include/x86_64-linux-gnu/bits/siginfo-arch.h:
+
+/home/emmanuel/geant4-install/include/Geant4/G4EventManager.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4GeneralParticleSourceData.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4SPSEneDistribution.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4VisExtent.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4Cache.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4VisAttributes.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4SPSRandomGenerator.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4VExternalNavigation.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4RegularNavigation.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4ReplicaNavigation.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4ParameterisedNavigation.icc:
+
+/home/emmanuel/geant4-install/include/Geant4/G4VVolumeMaterialScanner.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4VCSGfaceted.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4VPVParameterisation.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4ParameterisedNavigation.hh:
 
 /home/emmanuel/geant4-install/include/Geant4/G4VoxelNavigation.icc:
 
-/home/emmanuel/geant4-install/include/Geant4/G4AnalysisUtilities.hh:
+/home/emmanuel/geant4-install/include/Geant4/G4SmartVoxelHeader.icc:
 
-/usr/include/c++/11/bits/vector.tcc:
+/home/emmanuel/geant4-install/include/Geant4/G4SmartVoxelProxy.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4BlockingList.icc:
+
+/home/emmanuel/geant4-install/include/Geant4/G4NavigationLogger.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4NormalNavigation.icc:
+
+/home/emmanuel/geant4-install/include/Geant4/G4AuxiliaryNavServices.icc:
+
+/home/emmanuel/geant4-install/include/Geant4/G4AuxiliaryNavServices.hh:
+
+/usr/include/c++/11/bits/regex_compiler.h:
+
+/home/emmanuel/geant4-install/include/Geant4/G4SingleParticleSource.hh:
+
+/usr/include/string.h:
+
+/usr/include/x86_64-linux-gnu/bits/environments.h:
+
+/home/emmanuel/geant4-install/include/Geant4/G4GeneralParticleSourceMessenger.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4DynamicParticle.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4String.hh:
 
 /usr/include/c++/11/bits/stl_bvector.h:
 
@@ -3619,11 +4662,11 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /home/emmanuel/geant4-install/include/Geant4/G4GeneralParticleSource.hh:
 
-/home/emmanuel/geant4-install/include/Geant4/G4TP1ToolsManager.hh:
-
-/usr/include/c++/11/bits/stl_uninitialized.h:
-
 /usr/include/c++/11/vector:
+
+/home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/Randomize.h:
+
+/usr/include/c++/11/bits/erase_if.h:
 
 /usr/include/stdint.h:
 
@@ -3635,21 +4678,17 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /usr/include/c++/11/bits/basic_ios.tcc:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h:
+/home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/Random.icc:
 
-/home/emmanuel/geant4-install/include/Geant4/G4VVisManager.hh:
+/home/emmanuel/geant4-install/include/Geant4/G4BlockingList.hh:
 
-/home/emmanuel/geant4-install/include/Geant4/G4Tokenizer.hh:
-
-/usr/include/c++/11/bits/codecvt.h:
+/home/emmanuel/geant4-install/include/Geant4/G4UserSteppingAction.hh:
 
 /usr/include/c++/11/bits/hashtable_policy.h:
 
 /home/emmanuel/geant4-install/include/Geant4/G4VUPLSplitter.hh:
 
 /usr/include/c++/11/bits/hashtable.h:
-
-/home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/MTwistEngine.h:
 
 /usr/include/c++/11/bits/refwrap.h:
 
@@ -3661,15 +4700,11 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /home/emmanuel/geant4-install/include/Geant4/G4Pow.hh:
 
-/home/emmanuel/geant4-install/include/Geant4/tools/histo/b3:
-
-/home/emmanuel/geant4-install/include/Geant4/G4SPSAngDistribution.hh:
-
 /usr/include/c++/11/array:
 
 /usr/include/c++/11/tr1/beta_function.tcc:
 
-/home/emmanuel/geant4-install/include/Geant4/G4UserStackingAction.hh:
+/home/emmanuel/geant4-install/include/Geant4/G4THnMessenger.hh:
 
 /usr/include/c++/11/bits/stl_heap.h:
 
@@ -3681,9 +4716,13 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /usr/include/c++/11/debug/debug.h:
 
-/usr/include/limits.h:
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h:
 
-/usr/include/c++/11/ostream:
+/home/emmanuel/geant4-install/include/Geant4/G4SmartVoxelNode.hh:
+
+/usr/include/c++/11/bits/stl_relops.h:
+
+/usr/include/limits.h:
 
 ../TENISaction.cc:
 
@@ -3707,11 +4746,7 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/RotationY.h:
 
-/usr/include/c++/11/fenv.h:
-
-/home/emmanuel/geant4-install/include/Geant4/G4TH3ToolsManager.hh:
-
-/usr/include/c++/11/bits/uniform_int_dist.h:
+/home/emmanuel/geant4-install/include/Geant4/tools/histo/p1:
 
 /usr/include/c++/11/stdexcept:
 
@@ -3727,6 +4762,10 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /usr/include/c++/11/cstddef:
 
+/home/emmanuel/geant4-install/include/Geant4/G4SPSAngDistribution.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/tools/histo/b3:
+
 /home/emmanuel/geant4-install/include/Geant4/G4TrackStatus.hh:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h:
@@ -3737,12 +4776,6 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /usr/include/sched.h:
 
-/home/emmanuel/geant4-install/include/Geant4/G4VCSGface.hh:
-
-/home/emmanuel/geant4-install/include/Geant4/G4GenericFileManager.hh:
-
-/usr/include/x86_64-linux-gnu/bits/errno.h:
-
 /home/emmanuel/geant4-install/include/Geant4/G4VUserActionInitialization.hh:
 
 /usr/include/c++/11/cerrno:
@@ -3750,8 +4783,6 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
 
 /usr/include/stdio.h:
-
-/home/emmanuel/geant4-install/include/Geant4/G4ClassificationOfNewTrack.hh:
 
 /home/emmanuel/geant4-install/include/Geant4/G4HitFilterFactories.hh:
 
@@ -3797,6 +4828,8 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /usr/include/c++/11/bits/ostream_insert.h:
 
+/home/emmanuel/geant4-install/include/Geant4/G4HnInformation.hh:
+
 /usr/include/x86_64-linux-gnu/bits/uio_lim.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h:
@@ -3816,6 +4849,8 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 /home/emmanuel/geant4-install/include/Geant4/G4OpenGLQt.hh:
 
 /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/AxisAngle.icc:
+
+/home/emmanuel/geant4-install/include/Geant4/tools/forit:
 
 /home/emmanuel/geant4-install/include/Geant4/G4Trd.icc:
 
@@ -3849,6 +4884,14 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /usr/include/asm-generic/errno.h:
 
+/usr/include/c++/11/bits/list.tcc:
+
+/home/emmanuel/geant4-install/include/Geant4/G4SteppingManager.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4SmartVoxelHeader.hh:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:
+
 /usr/include/c++/11/unordered_map:
 
 /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandExpZiggurat.h:
@@ -3865,15 +4908,15 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
 
-/home/emmanuel/geant4-install/include/Geant4/G4THnManager.hh:
-
-/usr/include/x86_64-linux-gnu/sys/types.h:
+../TENISSteppingAction.cc:
 
 /usr/include/c++/11/future:
 
-/home/emmanuel/geant4-install/include/Geant4/G4VProcess.hh:
-
 /usr/include/locale.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobalstatic.h:
+
+/home/emmanuel/geant4-install/include/Geant4/G4NtupleBookingManager.hh:
 
 /usr/include/x86_64-linux-gnu/bits/setjmp.h:
 
@@ -3921,6 +4964,10 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /usr/include/x86_64-linux-gnu/bits/iscanonical.h:
 
+/home/emmanuel/geant4-install/include/Geant4/G4ToolsSGOffscreen.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4VAnalysisManager.icc:
+
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
@@ -3961,15 +5008,13 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /usr/include/ctype.h:
 
-/home/emmanuel/geant4-install/include/Geant4/G4SubEventTrackStack.hh:
+/home/emmanuel/geant4-install/include/Geant4/G4Navigator.hh:
+
+/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
 
 /usr/include/c++/11/bits/basic_string.tcc:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h:
-
-/home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandBinomial.icc:
 
 /usr/include/c++/11/bits/ostream.tcc:
 
@@ -3999,23 +5044,17 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 
-/home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandBreitWigner.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
 /usr/include/x86_64-linux-gnu/bits/getopt_core.h:
 
 /usr/include/c++/11/bits/functexcept.h:
 
-/home/emmanuel/geant4-install/include/Geant4/G4BaseFileManager.hh:
-
-/usr/include/x86_64-linux-gnu/bits/math-vector.h:
-
-/usr/include/c++/11/complex:
-
 /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h:
 
 /home/emmanuel/geant4-install/include/Geant4/G4Allocator.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4BaseAnalysisManager.hh:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
 
@@ -4030,6 +5069,10 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 /home/emmanuel/geant4-install/include/Geant4/G4NavigationLevelRep.icc:
 
 /usr/include/c++/11/tr1/bessel_function.tcc:
+
+/home/emmanuel/geant4-install/include/Geant4/G4CacheDetails.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4TH2ToolsManager.hh:
 
 /home/emmanuel/geant4-install/include/Geant4/G4OpenGLStoredX.hh:
 
@@ -4051,10 +5094,6 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /usr/include/pthread.h:
 
-/home/emmanuel/geant4-install/include/Geant4/G4VAnalysisManager.hh:
-
-/usr/include/x86_64-linux-gnu/sys/select.h:
-
 /home/emmanuel/geant4-install/include/Geant4/G4TessellatedSolid.hh:
 
 /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
@@ -4067,6 +5106,10 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /usr/include/stdlib.h:
 
+/home/emmanuel/geant4-install/include/Geant4/G4SPSPosDistribution.hh:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
 /usr/include/x86_64-linux-gnu/bits/sigthread.h:
 
 /home/emmanuel/geant4-install/include/Geant4/G4ThreeVector.hh:
@@ -4075,11 +5118,9 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 
-/usr/include/x86_64-linux-gnu/bits/siginfo-arch.h:
-
-/home/emmanuel/geant4-install/include/Geant4/G4EventManager.hh:
-
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+/home/emmanuel/geant4-install/include/Geant4/G4GenericAnalysisManager.hh:
 
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
 
@@ -4088,6 +5129,10 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 /usr/include/x86_64-linux-gnu/bits/signal_ext.h:
 
 /usr/include/x86_64-linux-gnu/bits/types.h:
+
+/home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/MixMaxRng.h:
+
+/home/emmanuel/geant4-install/include/Geant4/G4Visible.hh:
 
 /home/emmanuel/geant4-install/include/Geant4/G4VModel.icc:
 
@@ -4105,8 +5150,6 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /home/emmanuel/geant4-install/include/Geant4/G4ReferenceCountedHandle.hh:
 
-/home/emmanuel/geant4-install/include/Geant4/G4SmartVoxelProxy.hh:
-
 /home/emmanuel/geant4-install/include/Geant4/G4TrackVector.hh:
 
 /home/emmanuel/geant4-install/include/Geant4/G4NavigationHistoryPool.hh:
@@ -4116,6 +5159,12 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 /usr/include/linux/limits.h:
 
 /usr/include/c++/11/bits/shared_ptr_base.h:
+
+/usr/include/c++/11/fenv.h:
+
+/usr/include/c++/11/bits/uniform_int_dist.h:
+
+/home/emmanuel/geant4-install/include/Geant4/G4TH3ToolsManager.hh:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls.h:
 
@@ -4127,8 +5176,6 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/Rotation.h:
 
-/home/emmanuel/geant4-install/include/Geant4/G4VExternalNavigation.hh:
-
 /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
 
 /home/emmanuel/geant4-install/include/Geant4/G4PolyhedraHistorical.hh:
@@ -4138,6 +5185,14 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 /usr/include/c++/11/ext/type_traits.h:
 
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
+
+/home/emmanuel/geant4-install/include/Geant4/G4VCSGface.hh:
+
+/usr/include/x86_64-linux-gnu/bits/errno.h:
+
+/home/emmanuel/geant4-install/include/Geant4/G4GenericFileManager.hh:
+
+../run.hh:
 
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
@@ -4149,13 +5204,7 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /usr/include/c++/11/algorithm:
 
-/home/emmanuel/geant4-install/include/Geant4/G4VFileManager.hh:
-
-/home/emmanuel/geant4-install/include/Geant4/G4DataInterpolation.hh:
-
 /usr/include/c++/11/backward/binders.h:
-
-/home/emmanuel/geant4-install/include/Geant4/G4RegularNavigation.hh:
 
 /usr/include/x86_64-linux-gnu/bits/select.h:
 
@@ -4171,25 +5220,13 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /home/emmanuel/geant4-install/include/Geant4/G4ElementVector.hh:
 
-/home/emmanuel/geant4-install/include/Geant4/tools/histo/b2:
-
-/usr/include/c++/11/ext/new_allocator.h:
-
-/home/emmanuel/geant4-install/include/Geant4/G4UserSteppingAction.hh:
-
-/home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/Random.icc:
-
-/home/emmanuel/geant4-install/include/Geant4/G4BlockingList.hh:
-
-/home/emmanuel/geant4-install/include/Geant4/G4ParameterisedNavigation.hh:
-
-/home/emmanuel/geant4-install/include/Geant4/G4TrackingManager.hh:
-
 /home/emmanuel/geant4-install/include/Geant4/G4Region.hh:
 
 /usr/include/strings.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+
+../TENISSteppingAction.hh:
 
 /usr/include/time.h:
 
@@ -4201,9 +5238,9 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /usr/include/c++/11/bits/stl_pair.h:
 
-/home/emmanuel/geant4-install/include/Geant4/tools/histo/profile_data:
-
 /home/emmanuel/geant4-install/include/Geant4/G4ProcessVector.icc:
+
+/home/emmanuel/geant4-install/include/Geant4/tools/histo/profile_data:
 
 /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/RotationInterfaces.h:
 
@@ -4229,6 +5266,10 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /usr/include/c++/11/cstdlib:
 
+/home/emmanuel/geant4-install/include/Geant4/G4VSceneHandler.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4THnMessenger.icc:
+
 /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/AxisAngle.h:
 
 /usr/include/c++/11/bits/stl_iterator_base_types.h:
@@ -4237,11 +5278,11 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /home/emmanuel/geant4-install/include/Geant4/G4MaterialPropertiesTable.hh:
 
-/home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RanluxppEngine.h:
-
 /usr/include/c++/11/tr1/poly_laguerre.tcc:
 
 /usr/include/c++/11/bits/std_mutex.h:
+
+/home/emmanuel/geant4-install/include/Geant4/G4GenericFileManager.icc:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h:
 
@@ -4265,9 +5306,15 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /usr/include/c++/11/bits/localefwd.h:
 
+/home/emmanuel/geant4-install/include/Geant4/tools/histo/h1:
+
 /home/emmanuel/geant4-install/include/Geant4/G4TrajectoryFilterFactories.hh:
 
 /home/emmanuel/geant4-install/include/Geant4/G4VUserPrimaryGeneratorAction.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4SmartVoxelNode.icc:
+
+/usr/include/c++/11/tr1/hypergeometric.tcc:
 
 /usr/include/c++/11/bits/locale_facets.h:
 
@@ -4291,12 +5338,6 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /usr/include/c++/11/istream:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h:
-
-/usr/include/c++/11/bits/stl_relops.h:
-
-/home/emmanuel/geant4-install/include/Geant4/G4SmartVoxelNode.hh:
-
 /usr/include/c++/11/typeinfo:
 
 /home/emmanuel/geant4-install/include/Geant4/G4THitsCollection.hh:
@@ -4311,17 +5352,15 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
 
-/home/emmanuel/geant4-install/include/Geant4/tools/ntuple_booking:
-
-/usr/include/c++/11/bits/stringfwd.h:
-
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
 /home/emmanuel/geant4-install/include/Geant4/G4Plane3D.hh:
 
 /usr/include/c++/11/cstdint:
 
-/home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/Random.h:
+/home/emmanuel/geant4-install/include/Geant4/G4NormalNavigation.hh:
+
+/usr/include/c++/11/tr1/special_function_util.h:
 
 /home/emmanuel/geant4-install/include/Geant4/PTL/Utility.hh:
 
@@ -4349,17 +5388,21 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /home/emmanuel/geant4-install/include/Geant4/G4Element.hh:
 
-/home/emmanuel/geant4-install/include/Geant4/G4UImanager.hh:
-
-/usr/include/signal.h:
-
-/home/emmanuel/geant4-install/include/Geant4/tools/eqT:
-
-/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
-
 /home/emmanuel/geant4-install/include/Geant4/G4Material.hh:
 
 /home/emmanuel/geant4-install/include/Geant4/G4PhysicsModelCatalog.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4MaterialCutsCouple.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4PhysicsTable.icc:
+
+/home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RanshiEngine.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigval_t.h:
+
+/home/emmanuel/geant4-install/include/Geant4/G4UserRunAction.hh:
 
 /usr/include/c++/11/exception:
 
@@ -4372,6 +5415,10 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 /usr/include/c++/11/bits/string_view.tcc:
 
 /usr/include/asm-generic/errno-base.h:
+
+/home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandBit.icc:
+
+/home/emmanuel/geant4-install/include/Geant4/tools/histo/p2d:
 
 /home/emmanuel/geant4-install/include/Geant4/G4Ellipsoid.hh:
 
@@ -4416,8 +5463,6 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandLandau.h:
 
 /usr/include/c++/11/bits/locale_facets_nonio.tcc:
-
-/home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/JamesRandom.h:
 
 /home/emmanuel/geant4-install/include/Geant4/G4GPILSelection.hh:
 
@@ -4467,19 +5512,17 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /usr/include/c++/11/condition_variable:
 
-/home/emmanuel/geant4-install/include/Geant4/G4THnToolsManager.icc:
-
-/usr/include/c++/11/thread:
-
 /usr/include/c++/11/bits/parse_numbers.h:
-
-/home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandomEngine.icc:
 
 /home/emmanuel/geant4-install/include/Geant4/G4RotationMatrix.hh:
 
 /home/emmanuel/geant4-install/include/Geant4/G4Voxelizer.hh:
 
 /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/ThreeVector.h:
+
+/home/emmanuel/geant4-install/include/Geant4/Randomize.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/ThreeVector.icc:
 
 /home/emmanuel/geant4-install/include/Geant4/G4Profiler.hh:
 
@@ -4501,6 +5544,10 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/RotationZ.h:
 
+/home/emmanuel/geant4-install/include/Geant4/G4SmartVoxelProxy.icc:
+
+/home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/RotationZ.icc:
+
 /usr/include/c++/11/tr1/modified_bessel_func.tcc:
 
 /home/emmanuel/geant4-install/include/Geant4/G4NistManager.hh:
@@ -4521,15 +5568,11 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /usr/include/c++/11/backward/auto_ptr.h:
 
-/home/emmanuel/geant4-install/include/Geant4/G4HnManager.hh:
-
-/home/emmanuel/geant4-install/include/Geant4/G4SmartTrackStack.hh:
-
 /home/emmanuel/geant4-install/include/Geant4/G4Threading.hh:
 
-/home/emmanuel/geant4-install/include/Geant4/G4TP2ToolsManager.hh:
-
 /usr/include/x86_64-linux-gnu/bits/time64.h:
+
+/home/emmanuel/geant4-install/include/Geant4/G4TP2ToolsManager.hh:
 
 /home/emmanuel/geant4-install/include/Geant4/evtdefs.hh:
 
@@ -4545,11 +5588,19 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /usr/include/c++/11/bits/atomic_lockfree_defines.h:
 
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_cxx11.h:
+
+/home/emmanuel/geant4-install/include/Geant4/G4ProcessVector.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4VNavigation.hh:
+
+/usr/include/c++/11/string:
+
+/home/emmanuel/geant4-install/include/Geant4/G4PhysicsVector.icc:
+
 /home/emmanuel/geant4-install/include/Geant4/G4VPhysicalVolume.icc:
 
 /home/emmanuel/geant4-install/include/Geant4/G4LogicalVolume.hh:
-
-/home/emmanuel/geant4-install/include/Geant4/G4AuxiliaryNavServices.hh:
 
 /home/emmanuel/geant4-install/include/Geant4/G4SurfBits.hh:
 
@@ -4557,7 +5608,11 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /usr/include/c++/11/bits/stl_raw_storage_iter.h:
 
-/home/emmanuel/geant4-install/include/Geant4/G4StackedTrack.hh:
+/home/emmanuel/geant4-install/include/Geant4/G4SubEvent.hh:
+
+/usr/include/c++/11/bits/align.h:
+
+/home/emmanuel/geant4-install/include/Geant4/G4THnToolsManager.hh:
 
 /usr/include/c++/11/bit:
 
@@ -4569,15 +5624,7 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /home/emmanuel/geant4-install/include/Geant4/G4Region.icc:
 
-/home/emmanuel/geant4-install/include/Geant4/G4VisAttributes.hh:
-
-/home/emmanuel/geant4-install/include/Geant4/G4SPSRandomGenerator.hh:
-
 /home/emmanuel/geant4-install/include/Geant4/G4LogicalVolume.icc:
-
-/usr/include/c++/11/tr1/special_function_util.h:
-
-/home/emmanuel/geant4-install/include/Geant4/G4NormalNavigation.hh:
 
 /home/emmanuel/geant4-install/include/Geant4/G4PhysicsListHelper.hh:
 
@@ -4603,8 +5650,6 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /home/emmanuel/geant4-install/include/Geant4/G4TwoVector.hh:
 
-/home/emmanuel/geant4-install/include/Geant4/G4ReplicaNavigation.hh:
-
 /home/emmanuel/geant4-install/include/Geant4/G4VViewer.icc:
 
 /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/TwoVector.icc:
@@ -4615,9 +5660,19 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /home/emmanuel/geant4-install/include/Geant4/G4NavigationLevel.icc:
 
+/home/emmanuel/geant4-install/include/Geant4/G4NoProcess.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h:
+
 /home/emmanuel/geant4-install/include/Geant4/G4Transform3D.hh:
 
-/home/emmanuel/geant4-install/include/Geant4/G4VVolumeMaterialScanner.hh:
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h:
+
+/home/emmanuel/geant4-install/include/Geant4/G4VVisManager.hh:
+
+/usr/include/c++/11/bits/codecvt.h:
+
+/home/emmanuel/geant4-install/include/Geant4/G4Tokenizer.hh:
 
 /usr/include/c++/11/tr1/poly_hermite.tcc:
 
@@ -4643,9 +5698,7 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /home/emmanuel/geant4-install/include/Geant4/G4PhysicsFreeVector.hh:
 
-/home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/ThreeVector.icc:
-
-/home/emmanuel/geant4-install/include/Geant4/Randomize.hh:
+/home/emmanuel/geant4-install/include/Geant4/tools/histo/h1d:
 
 /home/emmanuel/geant4-install/include/Geant4/G4PhysicsVector.hh:
 
@@ -4687,39 +5740,35 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /home/emmanuel/geant4-install/include/Geant4/G4SystemOfUnits.hh:
 
-/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
+../TENISEvent.cc:
 
-../TENISaction.hh:
+/home/emmanuel/geant4-install/include/Geant4/G4UIExecutive.hh:
 
-/home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandStudentT.h:
+../TENISEvent.hh:
 
-/usr/include/c++/11/bits/fstream.tcc:
+/usr/include/c++/11/ostream:
 
-../TENISgenerator.hh:
+/home/emmanuel/geant4-install/include/Geant4/G4UserEventAction.hh:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_cxx11.h:
-
-/home/emmanuel/geant4-install/include/Geant4/G4ProcessVector.hh:
-
-/usr/include/c++/11/string:
-
-/home/emmanuel/geant4-install/include/Geant4/G4PhysicsVector.icc:
-
-/home/emmanuel/geant4-install/include/Geant4/G4VNavigation.hh:
+/home/emmanuel/geant4-install/include/Geant4/G4GenericAnalysisManager.icc:
 
 /home/emmanuel/geant4-install/include/Geant4/G4Event.hh:
 
 /home/emmanuel/geant4-install/include/Geant4/G4VHitsCollection.hh:
 
-/home/emmanuel/geant4-install/include/Geant4/G4Fcn.hh:
+/usr/include/c++/11/bits/stl_uninitialized.h:
+
+/home/emmanuel/geant4-install/include/Geant4/G4TP1ToolsManager.hh:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
 
+/home/emmanuel/geant4-install/include/Geant4/G4Fcn.hh:
+
 /usr/include/c++/11/set:
 
-/home/emmanuel/geant4-install/include/Geant4/G4TH2ToolsManager.hh:
+/usr/include/c++/11/ext/new_allocator.h:
 
-/home/emmanuel/geant4-install/include/Geant4/G4CacheDetails.hh:
+/home/emmanuel/geant4-install/include/Geant4/tools/histo/b2:
 
 /home/emmanuel/geant4-install/include/Geant4/G4PrimaryTransformer.hh:
 
@@ -4733,15 +5782,11 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /home/emmanuel/geant4-install/include/Geant4/G4PrimaryParticle.hh:
 
-/home/emmanuel/geant4-install/include/Geant4/G4AnalysisManager.hh:
-
 /usr/include/c++/11/cctype:
 
+/home/emmanuel/geant4-install/include/Geant4/G4AnalysisManager.hh:
+
 /home/emmanuel/geant4-install/include/Geant4/pwdefs.hh:
-
-/home/emmanuel/geant4-install/include/Geant4/tools/histo/h2d:
-
-/home/emmanuel/geant4-install/include/Geant4/G4DCofThisEvent.hh:
 
 /home/emmanuel/geant4-install/include/Geant4/G4VTrajectory.hh:
 
@@ -4759,21 +5804,129 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /home/emmanuel/geant4-install/include/Geant4/PTL/Globals.hh:
 
-/home/emmanuel/geant4-install/include/Geant4/CLHEP/Geometry/Vector3D.h:
+/usr/include/c++/11/bits/stringfwd.h:
 
-/home/emmanuel/geant4-install/include/Geant4/G4ParticleGun.hh:
+/home/emmanuel/geant4-install/include/Geant4/tools/ntuple_booking:
 
-/home/emmanuel/geant4-install/include/Geant4/G4VSolid.hh:
+/home/emmanuel/geant4-install/include/Geant4/G4ToolsAnalysisManager.hh:
 
-/home/emmanuel/geant4-install/include/Geant4/G4PDefManager.hh:
+/usr/include/x86_64-linux-gnu/sys/select.h:
 
-/usr/include/c++/11/stdlib.h:
+/home/emmanuel/geant4-install/include/Geant4/G4VAnalysisManager.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4AnalysisManagerState.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/tools/histo/h2:
+
+/home/emmanuel/geant4-install/include/Geant4/G4AnalysisVerbose.hh:
+
+/usr/include/c++/11/bits/vector.tcc:
+
+/home/emmanuel/geant4-install/include/Geant4/G4AnalysisUtilities.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4VMarker.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4VTBaseHnManager.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/tools/histo/histo_data:
+
+/home/emmanuel/geant4-install/include/Geant4/G4BinScheme.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4SmartTrackStack.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4HnManager.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4UImanager.hh:
+
+/usr/include/signal.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
+
+/home/emmanuel/geant4-install/include/Geant4/tools/eqT:
+
+/home/emmanuel/geant4-install/include/Geant4/tools/cids:
+
+/home/emmanuel/geant4-install/include/Geant4/G4NtupleBookingManager.icc:
+
+/home/emmanuel/geant4-install/include/Geant4/G4VNtupleManager.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4DataInterpolation.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4VFileManager.hh:
+
+/usr/include/x86_64-linux-gnu/bits/math-vector.h:
+
+/usr/include/c++/11/complex:
+
+/home/emmanuel/geant4-install/include/Geant4/G4BaseFileManager.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/tools/histo/b1:
+
+/home/emmanuel/geant4-install/include/Geant4/G4VTHnFileManager.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4TH1ToolsManager.hh:
 
 /home/emmanuel/geant4-install/include/Geant4/G4ParticleDefinition.icc:
 
-/home/emmanuel/geant4-install/include/Geant4/G4ParticleMomentum.hh:
+/usr/include/x86_64-linux-gnu/sys/types.h:
 
-/home/emmanuel/geant4-install/include/Geant4/G4ParticleTable.hh:
+/home/emmanuel/geant4-install/include/Geant4/G4THnManager.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4THnManager.icc:
+
+/home/emmanuel/geant4-install/include/Geant4/G4UImessenger.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4UIdirectory.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4ApplicationState.hh:
+
+/usr/include/c++/11/thread:
+
+/home/emmanuel/geant4-install/include/Geant4/G4THnToolsManager.icc:
+
+/usr/include/c++/11/bits/istream.tcc:
+
+/home/emmanuel/geant4-install/include/Geant4/G4UIparameter.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4Log.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4TrajectoryContainer.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4UItokenNum.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandGamma.h:
+
+/home/emmanuel/geant4-install/include/Geant4/tools/histo/axes:
+
+/home/emmanuel/geant4-install/include/Geant4/G4Step.icc:
+
+/home/emmanuel/geant4-install/include/Geant4/G4Tubs.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/tools/histo/axis:
+
+/home/emmanuel/geant4-install/include/Geant4/G4DCofThisEvent.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/tools/histo/h2d:
+
+/home/emmanuel/geant4-install/include/Geant4/tools/histo/h3d:
+
+/home/emmanuel/geant4-install/include/Geant4/G4ReplicaNavigation.icc:
+
+/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
+
+/home/emmanuel/geant4-install/include/Geant4/G4Exp.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/tools/histo/h3:
+
+/home/emmanuel/geant4-install/include/Geant4/tools/histo/p2:
+
+/home/emmanuel/geant4-install/include/Geant4/G4ToolsAnalysisManager.icc:
+
+/home/emmanuel/geant4-install/include/Geant4/G4Run.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4Step.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4StepPoint.hh:
 
 /usr/include/x86_64-linux-gnu/bits/sigstack.h:
 
@@ -4781,25 +5934,7 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /home/emmanuel/geant4-install/include/Geant4/G4StepStatus.hh:
 
-/home/emmanuel/geant4-install/include/Geant4/G4ParticleTableIterator.hh:
-
-/usr/include/c++/11/bits/regex_compiler.h:
-
-/home/emmanuel/geant4-install/include/Geant4/G4SingleParticleSource.hh:
-
-/usr/include/x86_64-linux-gnu/bits/wordsize.h:
-
-/home/emmanuel/geant4-install/include/Geant4/G4SPSPosDistribution.hh:
-
-/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
-
-/home/emmanuel/geant4-install/include/Geant4/G4Navigator.hh:
-
-/usr/include/c++/11/bits/stl_function.h:
-
-/home/emmanuel/geant4-install/include/Geant4/G4ParticleTable.icc:
-
-/home/emmanuel/geant4-install/include/Geant4/G4DynamicParticle.icc:
+/home/emmanuel/geant4-install/include/Geant4/G4ParticleTable.hh:
 
 /home/emmanuel/geant4-install/include/Geant4/tools/histo/base_histo:
 
@@ -4811,79 +5946,7 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /home/emmanuel/geant4-install/include/Geant4/G4NavigationLevel.hh:
 
-/usr/include/c++/11/bits/align.h:
-
-/home/emmanuel/geant4-install/include/Geant4/G4SubEvent.hh:
-
 /home/emmanuel/geant4-install/include/Geant4/G4NavigationLevelRep.hh:
-
-/home/emmanuel/geant4-install/include/Geant4/G4AuxiliaryNavServices.icc:
-
-/usr/include/c++/11/bits/istream.tcc:
-
-/home/emmanuel/geant4-install/include/Geant4/G4UIparameter.hh:
-
-/home/emmanuel/geant4-install/include/Geant4/G4NormalNavigation.icc:
-
-/home/emmanuel/geant4-install/include/Geant4/G4NavigationLogger.hh:
-
-/home/emmanuel/geant4-install/include/Geant4/G4BlockingList.icc:
-
-/home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/RotationZ.icc:
-
-/home/emmanuel/geant4-install/include/Geant4/G4SmartVoxelProxy.icc:
-
-/usr/include/c++/11/tr1/hypergeometric.tcc:
-
-/home/emmanuel/geant4-install/include/Geant4/G4SmartVoxelNode.icc:
-
-/home/emmanuel/geant4-install/include/Geant4/G4SmartVoxelHeader.icc:
-
-/home/emmanuel/geant4-install/include/Geant4/G4VCSGfaceted.hh:
-
-/home/emmanuel/geant4-install/include/Geant4/G4VPVParameterisation.hh:
-
-/home/emmanuel/geant4-install/include/Geant4/G4ParameterisedNavigation.icc:
-
-/home/emmanuel/geant4-install/include/Geant4/tools/histo/h3:
-
-/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
-
-/home/emmanuel/geant4-install/include/Geant4/G4Exp.hh:
-
-/home/emmanuel/geant4-install/include/Geant4/G4ReplicaNavigation.icc:
-
-/home/emmanuel/geant4-install/include/Geant4/G4VisExtent.hh:
-
-/home/emmanuel/geant4-install/include/Geant4/G4Cache.hh:
-
-/home/emmanuel/geant4-install/include/Geant4/G4SPSEneDistribution.hh:
-
-/usr/include/x86_64-linux-gnu/bits/environments.h:
-
-/home/emmanuel/geant4-install/include/Geant4/G4DynamicParticle.hh:
-
-/home/emmanuel/geant4-install/include/Geant4/G4GeneralParticleSourceMessenger.hh:
-
-/home/emmanuel/geant4-install/include/Geant4/G4UImessenger.hh:
-
-/home/emmanuel/geant4-install/include/Geant4/G4UIdirectory.hh:
-
-/home/emmanuel/geant4-install/include/Geant4/G4ApplicationState.hh:
-
-/home/emmanuel/geant4-install/include/Geant4/G4Log.hh:
-
-/home/emmanuel/geant4-install/include/Geant4/G4TrajectoryContainer.hh:
-
-/home/emmanuel/geant4-install/include/Geant4/G4UItokenNum.hh:
-
-/home/emmanuel/geant4-install/include/Geant4/G4GeneralParticleSourceData.hh:
-
-/usr/include/x86_64-linux-gnu/sys/ucontext.h:
-
-/home/emmanuel/geant4-install/include/Geant4/G4StackManager.hh:
-
-/home/emmanuel/geant4-install/include/Geant4/G4TrackStack.hh:
 
 /home/emmanuel/geant4-install/include/Geant4/tools/typedefs:
 
@@ -4891,50 +5954,36 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /home/emmanuel/geant4-install/include/Geant4/G4LorentzVector.hh:
 
+/home/emmanuel/geant4-install/include/Geant4/G4VSolid.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4PDefManager.hh:
+
+/usr/include/c++/11/stdlib.h:
+
+/home/emmanuel/geant4-install/include/Geant4/G4ParticleMomentum.hh:
+
+/usr/include/c++/11/bits/stl_function.h:
+
+/home/emmanuel/geant4-install/include/Geant4/G4ParticleTable.icc:
+
+/home/emmanuel/geant4-install/include/Geant4/G4DynamicParticle.icc:
+
 /home/emmanuel/geant4-install/include/Geant4/G4VUserTrackInformation.hh:
 
 /home/emmanuel/geant4-install/include/Geant4/G4Track.icc:
 
-/home/emmanuel/geant4-install/include/Geant4/G4Step.hh:
+/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
 
-/home/emmanuel/geant4-install/include/Geant4/G4StepPoint.hh:
+../TENISaction.hh:
 
-/home/emmanuel/geant4-install/include/Geant4/G4Step.icc:
+/home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandStudentT.h:
 
-/usr/include/c++/11/bits/list.tcc:
+/usr/include/c++/11/bits/fstream.tcc:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:
+../TENISgenerator.hh:
 
-/home/emmanuel/geant4-install/include/Geant4/G4SmartVoxelHeader.hh:
+/home/emmanuel/geant4-install/include/Geant4/CLHEP/Geometry/Vector3D.h:
 
-/home/emmanuel/geant4-install/include/Geant4/G4SteppingManager.hh:
+/home/emmanuel/geant4-install/include/Geant4/G4ParticleGun.hh:
 
-/home/emmanuel/geant4-install/include/Geant4/CLHEP/Utility/memory.h:
-
-/home/emmanuel/geant4-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h:
-
-/home/emmanuel/geant4-install/include/Geant4/G4NoProcess.hh:
-
-/usr/include/c++/11/bits/erase_if.h:
-
-/home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/Randomize.h:
-
-/home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/DualRand.h:
-
-/home/emmanuel/geant4-install/include/Geant4/G4Visible.hh:
-
-/home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/MixMaxRng.h:
-
-/home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RanecuEngine.h:
-
-/home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/Ranlux64Engine.h:
-
-/home/emmanuel/geant4-install/include/Geant4/G4MaterialCutsCouple.hh:
-
-/home/emmanuel/geant4-install/include/Geant4/G4PhysicsTable.icc:
-
-/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
-
-/home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RanshiEngine.h:
-
-/home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandBinomial.h:
+/home/emmanuel/geant4-install/include/Geant4/G4ParticleTableIterator.hh:

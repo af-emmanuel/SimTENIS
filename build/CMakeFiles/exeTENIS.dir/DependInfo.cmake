@@ -9,6 +9,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/emmanuel/myworkdir/simTENIS/TENISDetectorConstruction.cc" "CMakeFiles/exeTENIS.dir/TENISDetectorConstruction.cc.o" "gcc" "CMakeFiles/exeTENIS.dir/TENISDetectorConstruction.cc.o.d"
+  "/home/emmanuel/myworkdir/simTENIS/TENISEvent.cc" "CMakeFiles/exeTENIS.dir/TENISEvent.cc.o" "gcc" "CMakeFiles/exeTENIS.dir/TENISEvent.cc.o.d"
+  "/home/emmanuel/myworkdir/simTENIS/TENISSteppingAction.cc" "CMakeFiles/exeTENIS.dir/TENISSteppingAction.cc.o" "gcc" "CMakeFiles/exeTENIS.dir/TENISSteppingAction.cc.o.d"
   "/home/emmanuel/myworkdir/simTENIS/TENISaction.cc" "CMakeFiles/exeTENIS.dir/TENISaction.cc.o" "gcc" "CMakeFiles/exeTENIS.dir/TENISaction.cc.o.d"
   "/home/emmanuel/myworkdir/simTENIS/TENISgenerator.cc" "CMakeFiles/exeTENIS.dir/TENISgenerator.cc.o" "gcc" "CMakeFiles/exeTENIS.dir/TENISgenerator.cc.o.d"
   "/home/emmanuel/myworkdir/simTENIS/TENISphys.cc" "CMakeFiles/exeTENIS.dir/TENISphys.cc.o" "gcc" "CMakeFiles/exeTENIS.dir/TENISphys.cc.o.d"

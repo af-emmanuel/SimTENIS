@@ -166,6 +166,54 @@ TENISDetectorConstruction.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/exeTENIS.dir/build.make CMakeFiles/exeTENIS.dir/TENISDetectorConstruction.cc.s
 .PHONY : TENISDetectorConstruction.cc.s
 
+TENISEvent.o: TENISEvent.cc.o
+.PHONY : TENISEvent.o
+
+# target to build an object file
+TENISEvent.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exeTENIS.dir/build.make CMakeFiles/exeTENIS.dir/TENISEvent.cc.o
+.PHONY : TENISEvent.cc.o
+
+TENISEvent.i: TENISEvent.cc.i
+.PHONY : TENISEvent.i
+
+# target to preprocess a source file
+TENISEvent.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exeTENIS.dir/build.make CMakeFiles/exeTENIS.dir/TENISEvent.cc.i
+.PHONY : TENISEvent.cc.i
+
+TENISEvent.s: TENISEvent.cc.s
+.PHONY : TENISEvent.s
+
+# target to generate assembly for a file
+TENISEvent.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exeTENIS.dir/build.make CMakeFiles/exeTENIS.dir/TENISEvent.cc.s
+.PHONY : TENISEvent.cc.s
+
+TENISSteppingAction.o: TENISSteppingAction.cc.o
+.PHONY : TENISSteppingAction.o
+
+# target to build an object file
+TENISSteppingAction.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exeTENIS.dir/build.make CMakeFiles/exeTENIS.dir/TENISSteppingAction.cc.o
+.PHONY : TENISSteppingAction.cc.o
+
+TENISSteppingAction.i: TENISSteppingAction.cc.i
+.PHONY : TENISSteppingAction.i
+
+# target to preprocess a source file
+TENISSteppingAction.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exeTENIS.dir/build.make CMakeFiles/exeTENIS.dir/TENISSteppingAction.cc.i
+.PHONY : TENISSteppingAction.cc.i
+
+TENISSteppingAction.s: TENISSteppingAction.cc.s
+.PHONY : TENISSteppingAction.s
+
+# target to generate assembly for a file
+TENISSteppingAction.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exeTENIS.dir/build.make CMakeFiles/exeTENIS.dir/TENISSteppingAction.cc.s
+.PHONY : TENISSteppingAction.cc.s
+
 TENISaction.o: TENISaction.cc.o
 .PHONY : TENISaction.o
 
@@ -299,6 +347,12 @@ help:
 	@echo "... TENISDetectorConstruction.o"
 	@echo "... TENISDetectorConstruction.i"
 	@echo "... TENISDetectorConstruction.s"
+	@echo "... TENISEvent.o"
+	@echo "... TENISEvent.i"
+	@echo "... TENISEvent.s"
+	@echo "... TENISSteppingAction.o"
+	@echo "... TENISSteppingAction.i"
+	@echo "... TENISSteppingAction.s"
 	@echo "... TENISaction.o"
 	@echo "... TENISaction.i"
 	@echo "... TENISaction.s"
