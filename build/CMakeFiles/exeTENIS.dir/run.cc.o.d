@@ -326,4 +326,11 @@ CMakeFiles/exeTENIS.dir/run.cc.o: \
  /home/emmanuel/geant4-install/include/Geant4/G4ToolsAnalysisManager.icc \
  /home/emmanuel/geant4-install/include/Geant4/G4GenericAnalysisManager.icc \
  /home/emmanuel/geant4-install/include/Geant4/G4GenericFileManager.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4GenericFileManager.icc
+ /home/emmanuel/geant4-install/include/Geant4/G4GenericFileManager.icc \
+ /home/emmanuel/geant4-install/include/Geant4/G4Run.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4Profiler.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4Profiler.icc \
+ /home/emmanuel/geant4-install/include/Geant4/PTL/Globals.hh \
+ /home/emmanuel/geant4-install/include/Geant4/PTL/Types.hh \
+ /home/emmanuel/geant4-install/include/Geant4/PTL/Utility.hh \
+ /usr/include/c++/11/cstddef

@@ -728,4 +728,14 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: \
  /home/emmanuel/geant4-install/include/Geant4/G4Event.hh \
  /home/emmanuel/geant4-install/include/Geant4/G4ParticleGun.hh \
  /home/emmanuel/geant4-install/include/Geant4/G4VPrimaryGenerator.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4ParticleTable.hh
+ /home/emmanuel/geant4-install/include/Geant4/G4ParticleTable.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4GeneralParticleSource.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4SingleParticleSource.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4SPSPosDistribution.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4SPSRandomGenerator.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4DataInterpolation.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4SPSAngDistribution.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4SPSEneDistribution.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4GeneralParticleSourceMessenger.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4GeneralParticleSourceData.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4EventManager.hh
