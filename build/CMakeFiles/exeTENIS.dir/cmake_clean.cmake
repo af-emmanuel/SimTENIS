@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/exeTENIS.dir/TENISgenerator.cc.o.d"
   "CMakeFiles/exeTENIS.dir/TENISphys.cc.o"
   "CMakeFiles/exeTENIS.dir/TENISphys.cc.o.d"
+  "CMakeFiles/exeTENIS.dir/run.cc.o"
+  "CMakeFiles/exeTENIS.dir/run.cc.o.d"
   "CMakeFiles/exeTENIS.dir/tenis.cc.o"
   "CMakeFiles/exeTENIS.dir/tenis.cc.o.d"
   "exeTENIS"

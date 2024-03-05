@@ -238,6 +238,30 @@ TENISphys.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/exeTENIS.dir/build.make CMakeFiles/exeTENIS.dir/TENISphys.cc.s
 .PHONY : TENISphys.cc.s
 
+run.o: run.cc.o
+.PHONY : run.o
+
+# target to build an object file
+run.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exeTENIS.dir/build.make CMakeFiles/exeTENIS.dir/run.cc.o
+.PHONY : run.cc.o
+
+run.i: run.cc.i
+.PHONY : run.i
+
+# target to preprocess a source file
+run.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exeTENIS.dir/build.make CMakeFiles/exeTENIS.dir/run.cc.i
+.PHONY : run.cc.i
+
+run.s: run.cc.s
+.PHONY : run.s
+
+# target to generate assembly for a file
+run.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exeTENIS.dir/build.make CMakeFiles/exeTENIS.dir/run.cc.s
+.PHONY : run.cc.s
+
 tenis.o: tenis.cc.o
 .PHONY : tenis.o
 
@@ -284,6 +308,9 @@ help:
 	@echo "... TENISphys.o"
 	@echo "... TENISphys.i"
 	@echo "... TENISphys.s"
+	@echo "... run.o"
+	@echo "... run.i"
+	@echo "... run.s"
 	@echo "... tenis.o"
 	@echo "... tenis.i"
 	@echo "... tenis.s"
