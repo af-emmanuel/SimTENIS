@@ -653,6 +653,28 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: \
  /home/emmanuel/geant4-install/include/Geant4/G4Pow.hh \
  /home/emmanuel/geant4-install/include/Geant4/G4Exp.hh \
  /home/emmanuel/geant4-install/include/Geant4/G4SystemOfUnits.hh \
+ /home/emmanuel/myworkdir/simTENIS/TENISMaterials.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4MaterialPropertiesTable.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4Material.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4OpticalSurface.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4Physics2DVector.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4Physics2DVector.icc \
+ /home/emmanuel/geant4-install/include/Geant4/G4SurfaceProperty.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4Element.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4MaterialTable.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4MaterialPropertyVector.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4UnitsTable.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4UnitsTable.icc \
+ /home/emmanuel/geant4-install/include/Geant4/G4ThreeVector.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4OpBoundaryProcess.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4OpticalPhoton.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4OpticalSurface.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4RandomTools.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4RandomDirection.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4VDiscreteProcess.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4Scintillation.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4EmSaturation.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4VRestDiscreteProcess.hh \
  /home/emmanuel/myworkdir/simTENIS/TENISphys.hh \
  /home/emmanuel/geant4-install/include/Geant4/G4VModularPhysicsList.hh \
  /home/emmanuel/geant4-install/include/Geant4/G4VPhysicsConstructor.hh \
@@ -739,9 +761,6 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: \
  /home/emmanuel/geant4-install/include/Geant4/G4GeneralParticleSourceMessenger.hh \
  /home/emmanuel/geant4-install/include/Geant4/G4GeneralParticleSourceData.hh \
  /home/emmanuel/geant4-install/include/Geant4/G4EventManager.hh \
- /home/emmanuel/myworkdir/simTENIS/TENISSteppingAction.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4UserSteppingAction.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4Step.hh \
  /home/emmanuel/myworkdir/simTENIS/TENISEvent.hh \
  /home/emmanuel/geant4-install/include/Geant4/G4UserEventAction.hh \
  /home/emmanuel/geant4-install/include/Geant4/G4AnalysisManager.hh \
@@ -806,4 +825,9 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: \
  /home/emmanuel/geant4-install/include/Geant4/G4GenericFileManager.icc \
  /home/emmanuel/myworkdir/simTENIS/run.hh \
  /home/emmanuel/geant4-install/include/Geant4/G4UserRunAction.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4Run.hh
+ /home/emmanuel/geant4-install/include/Geant4/G4Run.hh \
+ /home/emmanuel/myworkdir/simTENIS/TENISSteppingAction.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4UserSteppingAction.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4Step.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4Track.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4ParticleDefinition.hh

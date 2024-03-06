@@ -111,10 +111,24 @@ CMakeFiles/exeTENIS.dir/TENISEvent.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exeTENIS.dir/TENISEvent.cc.s"
 	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/emmanuel/myworkdir/simTENIS/TENISEvent.cc -o CMakeFiles/exeTENIS.dir/TENISEvent.cc.s
 
+CMakeFiles/exeTENIS.dir/TENISMaterials.cc.o: CMakeFiles/exeTENIS.dir/flags.make
+CMakeFiles/exeTENIS.dir/TENISMaterials.cc.o: ../TENISMaterials.cc
+CMakeFiles/exeTENIS.dir/TENISMaterials.cc.o: CMakeFiles/exeTENIS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emmanuel/myworkdir/simTENIS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/exeTENIS.dir/TENISMaterials.cc.o"
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exeTENIS.dir/TENISMaterials.cc.o -MF CMakeFiles/exeTENIS.dir/TENISMaterials.cc.o.d -o CMakeFiles/exeTENIS.dir/TENISMaterials.cc.o -c /home/emmanuel/myworkdir/simTENIS/TENISMaterials.cc
+
+CMakeFiles/exeTENIS.dir/TENISMaterials.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exeTENIS.dir/TENISMaterials.cc.i"
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/emmanuel/myworkdir/simTENIS/TENISMaterials.cc > CMakeFiles/exeTENIS.dir/TENISMaterials.cc.i
+
+CMakeFiles/exeTENIS.dir/TENISMaterials.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exeTENIS.dir/TENISMaterials.cc.s"
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/emmanuel/myworkdir/simTENIS/TENISMaterials.cc -o CMakeFiles/exeTENIS.dir/TENISMaterials.cc.s
+
 CMakeFiles/exeTENIS.dir/TENISSteppingAction.cc.o: CMakeFiles/exeTENIS.dir/flags.make
 CMakeFiles/exeTENIS.dir/TENISSteppingAction.cc.o: ../TENISSteppingAction.cc
 CMakeFiles/exeTENIS.dir/TENISSteppingAction.cc.o: CMakeFiles/exeTENIS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emmanuel/myworkdir/simTENIS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/exeTENIS.dir/TENISSteppingAction.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emmanuel/myworkdir/simTENIS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/exeTENIS.dir/TENISSteppingAction.cc.o"
 	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exeTENIS.dir/TENISSteppingAction.cc.o -MF CMakeFiles/exeTENIS.dir/TENISSteppingAction.cc.o.d -o CMakeFiles/exeTENIS.dir/TENISSteppingAction.cc.o -c /home/emmanuel/myworkdir/simTENIS/TENISSteppingAction.cc
 
 CMakeFiles/exeTENIS.dir/TENISSteppingAction.cc.i: cmake_force
@@ -128,7 +142,7 @@ CMakeFiles/exeTENIS.dir/TENISSteppingAction.cc.s: cmake_force
 CMakeFiles/exeTENIS.dir/TENISaction.cc.o: CMakeFiles/exeTENIS.dir/flags.make
 CMakeFiles/exeTENIS.dir/TENISaction.cc.o: ../TENISaction.cc
 CMakeFiles/exeTENIS.dir/TENISaction.cc.o: CMakeFiles/exeTENIS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emmanuel/myworkdir/simTENIS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/exeTENIS.dir/TENISaction.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emmanuel/myworkdir/simTENIS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/exeTENIS.dir/TENISaction.cc.o"
 	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exeTENIS.dir/TENISaction.cc.o -MF CMakeFiles/exeTENIS.dir/TENISaction.cc.o.d -o CMakeFiles/exeTENIS.dir/TENISaction.cc.o -c /home/emmanuel/myworkdir/simTENIS/TENISaction.cc
 
 CMakeFiles/exeTENIS.dir/TENISaction.cc.i: cmake_force
@@ -142,7 +156,7 @@ CMakeFiles/exeTENIS.dir/TENISaction.cc.s: cmake_force
 CMakeFiles/exeTENIS.dir/TENISgenerator.cc.o: CMakeFiles/exeTENIS.dir/flags.make
 CMakeFiles/exeTENIS.dir/TENISgenerator.cc.o: ../TENISgenerator.cc
 CMakeFiles/exeTENIS.dir/TENISgenerator.cc.o: CMakeFiles/exeTENIS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emmanuel/myworkdir/simTENIS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/exeTENIS.dir/TENISgenerator.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emmanuel/myworkdir/simTENIS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/exeTENIS.dir/TENISgenerator.cc.o"
 	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exeTENIS.dir/TENISgenerator.cc.o -MF CMakeFiles/exeTENIS.dir/TENISgenerator.cc.o.d -o CMakeFiles/exeTENIS.dir/TENISgenerator.cc.o -c /home/emmanuel/myworkdir/simTENIS/TENISgenerator.cc
 
 CMakeFiles/exeTENIS.dir/TENISgenerator.cc.i: cmake_force
@@ -156,7 +170,7 @@ CMakeFiles/exeTENIS.dir/TENISgenerator.cc.s: cmake_force
 CMakeFiles/exeTENIS.dir/TENISphys.cc.o: CMakeFiles/exeTENIS.dir/flags.make
 CMakeFiles/exeTENIS.dir/TENISphys.cc.o: ../TENISphys.cc
 CMakeFiles/exeTENIS.dir/TENISphys.cc.o: CMakeFiles/exeTENIS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emmanuel/myworkdir/simTENIS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/exeTENIS.dir/TENISphys.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emmanuel/myworkdir/simTENIS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/exeTENIS.dir/TENISphys.cc.o"
 	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exeTENIS.dir/TENISphys.cc.o -MF CMakeFiles/exeTENIS.dir/TENISphys.cc.o.d -o CMakeFiles/exeTENIS.dir/TENISphys.cc.o -c /home/emmanuel/myworkdir/simTENIS/TENISphys.cc
 
 CMakeFiles/exeTENIS.dir/TENISphys.cc.i: cmake_force
@@ -170,7 +184,7 @@ CMakeFiles/exeTENIS.dir/TENISphys.cc.s: cmake_force
 CMakeFiles/exeTENIS.dir/run.cc.o: CMakeFiles/exeTENIS.dir/flags.make
 CMakeFiles/exeTENIS.dir/run.cc.o: ../run.cc
 CMakeFiles/exeTENIS.dir/run.cc.o: CMakeFiles/exeTENIS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emmanuel/myworkdir/simTENIS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/exeTENIS.dir/run.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emmanuel/myworkdir/simTENIS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/exeTENIS.dir/run.cc.o"
 	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exeTENIS.dir/run.cc.o -MF CMakeFiles/exeTENIS.dir/run.cc.o.d -o CMakeFiles/exeTENIS.dir/run.cc.o -c /home/emmanuel/myworkdir/simTENIS/run.cc
 
 CMakeFiles/exeTENIS.dir/run.cc.i: cmake_force
@@ -186,6 +200,7 @@ exeTENIS_OBJECTS = \
 "CMakeFiles/exeTENIS.dir/tenis.cc.o" \
 "CMakeFiles/exeTENIS.dir/TENISDetectorConstruction.cc.o" \
 "CMakeFiles/exeTENIS.dir/TENISEvent.cc.o" \
+"CMakeFiles/exeTENIS.dir/TENISMaterials.cc.o" \
 "CMakeFiles/exeTENIS.dir/TENISSteppingAction.cc.o" \
 "CMakeFiles/exeTENIS.dir/TENISaction.cc.o" \
 "CMakeFiles/exeTENIS.dir/TENISgenerator.cc.o" \
@@ -198,6 +213,7 @@ exeTENIS_EXTERNAL_OBJECTS =
 exeTENIS: CMakeFiles/exeTENIS.dir/tenis.cc.o
 exeTENIS: CMakeFiles/exeTENIS.dir/TENISDetectorConstruction.cc.o
 exeTENIS: CMakeFiles/exeTENIS.dir/TENISEvent.cc.o
+exeTENIS: CMakeFiles/exeTENIS.dir/TENISMaterials.cc.o
 exeTENIS: CMakeFiles/exeTENIS.dir/TENISSteppingAction.cc.o
 exeTENIS: CMakeFiles/exeTENIS.dir/TENISaction.cc.o
 exeTENIS: CMakeFiles/exeTENIS.dir/TENISgenerator.cc.o
@@ -252,7 +268,7 @@ exeTENIS: /home/emmanuel/geant4-install/lib/libG4global.so
 exeTENIS: /home/emmanuel/geant4-install/lib/libG4clhep.so
 exeTENIS: /home/emmanuel/geant4-install/lib/libG4ptl.so.2.3.3
 exeTENIS: CMakeFiles/exeTENIS.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/emmanuel/myworkdir/simTENIS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable exeTENIS"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/emmanuel/myworkdir/simTENIS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable exeTENIS"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/exeTENIS.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

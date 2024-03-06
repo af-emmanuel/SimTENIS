@@ -11,6 +11,7 @@
 #include "G4PVPlacement.hh"
 #include "G4NistManager.hh"
 #include "G4SystemOfUnits.hh"
+#include "TENISMaterials.hh"
 
 
 class TENISDetectorConstruction : public G4VUserDetectorConstruction
@@ -21,6 +22,9 @@ class TENISDetectorConstruction : public G4VUserDetectorConstruction
 
         virtual G4VPhysicalVolume* Construct();  //constrcuts the whole detector geometry.The whole detector has to be put into that fucntion
         //virtual because it is defined in the class implemented in geant4 
+
+        G4Material*air;
+        TENISMaterials*tenmat;
 
         
 };

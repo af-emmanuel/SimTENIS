@@ -1,10 +1,10 @@
-CMakeFiles/exeTENIS.dir/TENISDetectorConstruction.cc.o: \
- /home/emmanuel/myworkdir/simTENIS/TENISDetectorConstruction.cc \
+CMakeFiles/exeTENIS.dir/TENISMaterials.cc.o: \
+ /home/emmanuel/myworkdir/simTENIS/TENISMaterials.cc \
  /usr/include/stdc-predef.h \
- /home/emmanuel/myworkdir/simTENIS/TENISDetectorConstruction.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4VUserDetectorConstruction.hh \
- /home/emmanuel/geant4-install/include/Geant4/globals.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4ios.hh \
+ /home/emmanuel/myworkdir/simTENIS/TENISMaterials.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4MaterialPropertiesTable.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4MaterialPropertiesIndex.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4String.hh \
  /home/emmanuel/geant4-install/include/Geant4/G4Types.hh \
  /home/emmanuel/geant4-install/include/Geant4/G4GlobalConfig.hh \
  /usr/include/c++/11/complex \
@@ -179,8 +179,8 @@ CMakeFiles/exeTENIS.dir/TENISDetectorConstruction.cc.o: \
  /usr/include/c++/11/bits/istream.tcc \
  /usr/include/c++/11/bits/sstream.tcc \
  /home/emmanuel/geant4-install/include/Geant4/tls.hh \
- /usr/include/c++/11/iostream /usr/include/c++/11/algorithm \
- /usr/include/c++/11/utility /usr/include/c++/11/bits/stl_relops.h \
+ /usr/include/c++/11/algorithm /usr/include/c++/11/utility \
+ /usr/include/c++/11/bits/stl_relops.h \
  /usr/include/c++/11/bits/stl_algo.h \
  /usr/include/c++/11/bits/algorithmfwd.h \
  /usr/include/c++/11/bits/stl_heap.h \
@@ -203,10 +203,21 @@ CMakeFiles/exeTENIS.dir/TENISDetectorConstruction.cc.o: \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /usr/include/c++/11/pstl/execution_defs.h \
- /home/emmanuel/geant4-install/include/Geant4/G4String.hh \
- /usr/include/c++/11/cstring /usr/include/string.h /usr/include/strings.h \
+ /usr/include/c++/11/pstl/execution_defs.h /usr/include/c++/11/cstring \
+ /usr/include/string.h /usr/include/strings.h \
+ /usr/include/c++/11/iostream \
  /home/emmanuel/geant4-install/include/Geant4/G4String.icc \
+ /home/emmanuel/geant4-install/include/Geant4/G4MaterialPropertyVector.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4PhysicsFreeVector.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4PhysicsVector.hh \
+ /usr/include/c++/11/fstream /usr/include/c++/11/bits/codecvt.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
+ /usr/include/c++/11/bits/fstream.tcc \
+ /home/emmanuel/geant4-install/include/Geant4/G4Log.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4PhysicsVectorType.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4ios.hh \
+ /home/emmanuel/geant4-install/include/Geant4/globals.hh \
  /home/emmanuel/geant4-install/include/Geant4/templates.hh \
  /usr/include/c++/11/climits \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
@@ -224,8 +235,7 @@ CMakeFiles/exeTENIS.dir/TENISDetectorConstruction.cc.o: \
  /usr/include/c++/11/bits/locale_facets_nonio.h /usr/include/c++/11/ctime \
  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
- /usr/include/libintl.h /usr/include/c++/11/bits/codecvt.h \
- /usr/include/c++/11/bits/locale_facets_nonio.tcc \
+ /usr/include/libintl.h /usr/include/c++/11/bits/locale_facets_nonio.tcc \
  /usr/include/c++/11/bits/locale_conv.h \
  /usr/include/c++/11/bits/unique_ptr.h \
  /usr/include/c++/11/bits/quoted_string.h /usr/include/c++/11/map \
@@ -235,31 +245,50 @@ CMakeFiles/exeTENIS.dir/TENISDetectorConstruction.cc.o: \
  /usr/include/c++/11/bits/parse_numbers.h \
  /usr/include/c++/11/bits/std_mutex.h \
  /usr/include/c++/11/bits/unique_lock.h \
- /home/emmanuel/geant4-install/include/Geant4/G4VPhysicalVolume.hh \
- /home/emmanuel/geant4-install/include/Geant4/geomdefs.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4RotationMatrix.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4PhysicsVector.icc \
+ /home/emmanuel/geant4-install/include/Geant4/G4Material.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4Element.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4ElementTable.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4ElementVector.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4IonisParamElm.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4Isotope.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4IsotopeVector.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4IonisParamMat.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4DensityEffectCalculator.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4MaterialPropertiesTable.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4MaterialTable.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4SandiaTable.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4OrderedTable.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4DataVector.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4DataVector.icc \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Units/PhysicalConstants.h \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Units/SystemOfUnits.h \
+ /usr/include/assert.h \
+ /home/emmanuel/geant4-install/include/Geant4/G4NistManager.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4ICRU90StoppingData.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4Material.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4NistElementBuilder.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4NistMaterialBuilder.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4Pow.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4Exp.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4OpticalSurface.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4Physics2DVector.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4Physics2DVector.icc \
+ /home/emmanuel/geant4-install/include/Geant4/G4SurfaceProperty.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4Element.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4MaterialTable.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4MaterialPropertyVector.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4UnitsTable.hh \
  /home/emmanuel/geant4-install/include/Geant4/G4ThreeVector.hh \
  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/ThreeVector.h \
  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Utility/defs.h \
  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/ThreeVector.icc \
- /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/Rotation.h \
- /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/RotationInterfaces.h \
- /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/LorentzVector.h \
- /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/LorentzVector.icc \
- /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/AxisAngle.h \
- /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/AxisAngle.icc \
- /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/RotationInterfaces.icc \
- /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/RotationX.h \
- /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/RotationX.icc \
- /home/emmanuel/geant4-install/include/Geant4/CLHEP/Units/PhysicalConstants.h \
- /home/emmanuel/geant4-install/include/Geant4/CLHEP/Units/SystemOfUnits.h \
- /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/RotationY.h \
- /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/RotationY.icc \
- /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/RotationZ.h \
- /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/RotationZ.icc \
- /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/Rotation.icc \
- /home/emmanuel/geant4-install/include/Geant4/G4GeomSplitter.hh \
- /home/emmanuel/geant4-install/include/Geant4/geomwdefs.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4UnitsTable.icc \
+ /home/emmanuel/geant4-install/include/Geant4/G4ThreeVector.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4OpBoundaryProcess.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4OpticalPhoton.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4ParticleDefinition.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4PDefManager.hh \
  /home/emmanuel/geant4-install/include/Geant4/G4AutoLock.hh \
  /home/emmanuel/geant4-install/include/Geant4/G4Threading.hh \
  /usr/include/c++/11/condition_variable \
@@ -272,93 +301,6 @@ CMakeFiles/exeTENIS.dir/TENISDetectorConstruction.cc.o: \
  /usr/include/c++/11/bits/atomic_futex.h \
  /usr/include/c++/11/bits/std_thread.h /usr/include/c++/11/thread \
  /usr/include/c++/11/bits/this_thread_sleep.h \
- /home/emmanuel/geant4-install/include/Geant4/G4VPhysicalVolume.icc \
- /home/emmanuel/geant4-install/include/Geant4/G4LogicalVolume.hh \
- /usr/include/c++/11/memory \
- /usr/include/c++/11/bits/stl_raw_storage_iter.h \
- /usr/include/c++/11/bits/align.h /usr/include/c++/11/bit \
- /usr/include/c++/11/bits/shared_ptr_atomic.h \
- /usr/include/c++/11/backward/auto_ptr.h \
- /usr/include/c++/11/pstl/glue_memory_defs.h \
- /home/emmanuel/geant4-install/include/Geant4/G4Region.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4Region.icc \
- /home/emmanuel/geant4-install/include/Geant4/G4VPhysicalVolume.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4LogicalVolume.icc \
- /home/emmanuel/geant4-install/include/Geant4/G4Box.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4GeomTypes.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4GeomConfig.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4CSGSolid.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4VSolid.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4VSolid.icc \
- /home/emmanuel/geant4-install/include/Geant4/G4Polyhedron.hh \
- /home/emmanuel/geant4-install/include/Geant4/HepPolyhedron.h \
- /home/emmanuel/geant4-install/include/Geant4/G4TwoVector.hh \
- /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/TwoVector.h \
- /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/TwoVector.icc \
- /home/emmanuel/geant4-install/include/Geant4/G4Point3D.hh \
- /home/emmanuel/geant4-install/include/Geant4/CLHEP/Geometry/Point3D.h \
- /home/emmanuel/geant4-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h \
- /home/emmanuel/geant4-install/include/Geant4/G4Normal3D.hh \
- /home/emmanuel/geant4-install/include/Geant4/CLHEP/Geometry/Normal3D.h \
- /home/emmanuel/geant4-install/include/Geant4/G4Transform3D.hh \
- /home/emmanuel/geant4-install/include/Geant4/CLHEP/Geometry/Transform3D.h \
- /home/emmanuel/geant4-install/include/Geant4/CLHEP/Geometry/Transform3D.icc \
- /home/emmanuel/geant4-install/include/Geant4/CLHEP/Geometry/Vector3D.h \
- /home/emmanuel/geant4-install/include/Geant4/G4Visible.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4Visible.icc \
- /home/emmanuel/geant4-install/include/Geant4/G4Box.icc \
- /home/emmanuel/geant4-install/include/Geant4/G4PVPlacement.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4NistManager.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4ICRU90StoppingData.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4Material.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4Element.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4ElementTable.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4ElementVector.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4IonisParamElm.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4Isotope.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4IsotopeVector.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4IonisParamMat.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4DensityEffectCalculator.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4MaterialPropertiesTable.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4MaterialPropertiesIndex.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4MaterialPropertyVector.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4PhysicsFreeVector.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4PhysicsVector.hh \
- /usr/include/c++/11/fstream \
- /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
- /usr/include/c++/11/bits/fstream.tcc \
- /home/emmanuel/geant4-install/include/Geant4/G4Log.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4PhysicsVectorType.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4PhysicsVector.icc \
- /home/emmanuel/geant4-install/include/Geant4/G4MaterialTable.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4SandiaTable.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4OrderedTable.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4DataVector.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4DataVector.icc \
- /usr/include/assert.h \
- /home/emmanuel/geant4-install/include/Geant4/G4NistElementBuilder.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4NistMaterialBuilder.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4Pow.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4Exp.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4SystemOfUnits.hh \
- /home/emmanuel/myworkdir/simTENIS/TENISMaterials.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4MaterialPropertiesTable.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4Material.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4OpticalSurface.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4Physics2DVector.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4Physics2DVector.icc \
- /home/emmanuel/geant4-install/include/Geant4/G4SurfaceProperty.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4Element.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4MaterialTable.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4MaterialPropertyVector.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4UnitsTable.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4UnitsTable.icc \
- /home/emmanuel/geant4-install/include/Geant4/G4ThreeVector.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4OpBoundaryProcess.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4OpticalPhoton.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4ParticleDefinition.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4PDefManager.hh \
  /home/emmanuel/geant4-install/include/Geant4/pwdefs.hh \
  /usr/include/c++/11/stdlib.h \
  /home/emmanuel/geant4-install/include/Geant4/G4ParticleDefinition.icc \
@@ -382,6 +324,12 @@ CMakeFiles/exeTENIS.dir/TENISDetectorConstruction.cc.o: \
  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/Random.h \
  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/Random.icc \
  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Utility/memory.h \
+ /usr/include/c++/11/memory \
+ /usr/include/c++/11/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/11/bits/align.h /usr/include/c++/11/bit \
+ /usr/include/c++/11/bits/shared_ptr_atomic.h \
+ /usr/include/c++/11/backward/auto_ptr.h \
+ /usr/include/c++/11/pstl/glue_memory_defs.h \
  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandBinomial.icc \
  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandBreitWigner.h \
  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandFlat.h \
@@ -412,6 +360,9 @@ CMakeFiles/exeTENIS.dir/TENISDetectorConstruction.cc.o: \
  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandPoissonQ.icc \
  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandStudentT.h \
  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandStudentT.icc \
+ /home/emmanuel/geant4-install/include/Geant4/G4TwoVector.hh \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/TwoVector.h \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/TwoVector.icc \
  /home/emmanuel/geant4-install/include/Geant4/G4VDiscreteProcess.hh \
  /home/emmanuel/geant4-install/include/Geant4/G4VProcess.hh \
  /home/emmanuel/geant4-install/include/Geant4/G4PhysicsTable.hh \
@@ -420,6 +371,26 @@ CMakeFiles/exeTENIS.dir/TENISDetectorConstruction.cc.o: \
  /home/emmanuel/geant4-install/include/Geant4/G4TrackStatus.hh \
  /home/emmanuel/geant4-install/include/Geant4/G4SteppingControl.hh \
  /home/emmanuel/geant4-install/include/Geant4/G4Step.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4VPhysicalVolume.hh \
+ /home/emmanuel/geant4-install/include/Geant4/geomdefs.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4RotationMatrix.hh \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/Rotation.h \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/RotationInterfaces.h \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/LorentzVector.h \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/LorentzVector.icc \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/AxisAngle.h \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/AxisAngle.icc \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/RotationInterfaces.icc \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/RotationX.h \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/RotationX.icc \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/RotationY.h \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/RotationY.icc \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/RotationZ.h \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/RotationZ.icc \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/Rotation.icc \
+ /home/emmanuel/geant4-install/include/Geant4/G4GeomSplitter.hh \
+ /home/emmanuel/geant4-install/include/Geant4/geomwdefs.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4VPhysicalVolume.icc \
  /home/emmanuel/geant4-install/include/Geant4/G4StepPoint.hh \
  /home/emmanuel/geant4-install/include/Geant4/G4Allocator.hh \
  /usr/include/c++/11/cstddef \
@@ -430,6 +401,13 @@ CMakeFiles/exeTENIS.dir/TENISDetectorConstruction.cc.o: \
  /home/emmanuel/geant4-install/include/Geant4/G4TouchableHistory.hh \
  /home/emmanuel/geant4-install/include/Geant4/G4NavigationHistory.hh \
  /home/emmanuel/geant4-install/include/Geant4/G4AffineTransform.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4Transform3D.hh \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Geometry/Transform3D.h \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Geometry/Transform3D.icc \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Geometry/Point3D.h \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Geometry/Vector3D.h \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Geometry/Normal3D.h \
  /home/emmanuel/geant4-install/include/Geant4/G4AffineTransform.icc \
  /home/emmanuel/geant4-install/include/Geant4/G4NavigationLevel.hh \
  /home/emmanuel/geant4-install/include/Geant4/G4NavigationLevelRep.hh \
@@ -438,6 +416,9 @@ CMakeFiles/exeTENIS.dir/TENISDetectorConstruction.cc.o: \
  /home/emmanuel/geant4-install/include/Geant4/G4NavigationHistoryPool.hh \
  /home/emmanuel/geant4-install/include/Geant4/G4NavigationHistory.icc \
  /home/emmanuel/geant4-install/include/Geant4/G4LogicalVolume.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4Region.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4Region.icc \
+ /home/emmanuel/geant4-install/include/Geant4/G4LogicalVolume.icc \
  /home/emmanuel/geant4-install/include/Geant4/G4TouchableHistory.icc \
  /home/emmanuel/geant4-install/include/Geant4/G4ReferenceCountedHandle.hh \
  /home/emmanuel/geant4-install/include/Geant4/G4StepPoint.icc \

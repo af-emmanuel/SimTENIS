@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/exeTENIS.dir/TENISDetectorConstruction.cc.o.d"
   "CMakeFiles/exeTENIS.dir/TENISEvent.cc.o"
   "CMakeFiles/exeTENIS.dir/TENISEvent.cc.o.d"
+  "CMakeFiles/exeTENIS.dir/TENISMaterials.cc.o"
+  "CMakeFiles/exeTENIS.dir/TENISMaterials.cc.o.d"
   "CMakeFiles/exeTENIS.dir/TENISSteppingAction.cc.o"
   "CMakeFiles/exeTENIS.dir/TENISSteppingAction.cc.o.d"
   "CMakeFiles/exeTENIS.dir/TENISaction.cc.o"

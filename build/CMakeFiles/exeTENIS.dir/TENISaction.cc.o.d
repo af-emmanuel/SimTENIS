@@ -508,34 +508,6 @@ CMakeFiles/exeTENIS.dir/TENISaction.cc.o: \
  /home/emmanuel/geant4-install/include/Geant4/trkgdefs.hh \
  /home/emmanuel/geant4-install/include/Geant4/G4TrackingMessenger.hh \
  /home/emmanuel/geant4-install/include/Geant4/G4UserTrackingAction.hh \
- /home/emmanuel/myworkdir/simTENIS/TENISSteppingAction.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4UserSteppingAction.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4Step.hh \
- /home/emmanuel/myworkdir/simTENIS/TENISDetectorConstruction.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4VUserDetectorConstruction.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4VPhysicalVolume.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4LogicalVolume.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4Box.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4GeomTypes.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4GeomConfig.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4CSGSolid.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4Polyhedron.hh \
- /home/emmanuel/geant4-install/include/Geant4/HepPolyhedron.h \
- /home/emmanuel/geant4-install/include/Geant4/G4TwoVector.hh \
- /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/TwoVector.h \
- /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/TwoVector.icc \
- /home/emmanuel/geant4-install/include/Geant4/G4Point3D.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4Normal3D.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4Visible.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4Visible.icc \
- /home/emmanuel/geant4-install/include/Geant4/G4Box.icc \
- /home/emmanuel/geant4-install/include/Geant4/G4PVPlacement.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4NistManager.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4ICRU90StoppingData.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4NistElementBuilder.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4NistMaterialBuilder.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4Pow.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4Exp.hh \
  /home/emmanuel/myworkdir/simTENIS/TENISEvent.hh \
  /home/emmanuel/geant4-install/include/Geant4/G4UserEventAction.hh \
  /home/emmanuel/geant4-install/include/Geant4/G4AnalysisManager.hh \
@@ -600,4 +572,56 @@ CMakeFiles/exeTENIS.dir/TENISaction.cc.o: \
  /home/emmanuel/geant4-install/include/Geant4/G4GenericFileManager.icc \
  /home/emmanuel/myworkdir/simTENIS/run.hh \
  /home/emmanuel/geant4-install/include/Geant4/G4UserRunAction.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4Run.hh
+ /home/emmanuel/geant4-install/include/Geant4/G4Run.hh \
+ /home/emmanuel/myworkdir/simTENIS/TENISSteppingAction.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4UserSteppingAction.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4Step.hh \
+ /home/emmanuel/myworkdir/simTENIS/TENISDetectorConstruction.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4VUserDetectorConstruction.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4VPhysicalVolume.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4LogicalVolume.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4Box.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4GeomTypes.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4GeomConfig.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4CSGSolid.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4Polyhedron.hh \
+ /home/emmanuel/geant4-install/include/Geant4/HepPolyhedron.h \
+ /home/emmanuel/geant4-install/include/Geant4/G4TwoVector.hh \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/TwoVector.h \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/TwoVector.icc \
+ /home/emmanuel/geant4-install/include/Geant4/G4Point3D.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4Normal3D.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4Visible.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4Visible.icc \
+ /home/emmanuel/geant4-install/include/Geant4/G4Box.icc \
+ /home/emmanuel/geant4-install/include/Geant4/G4PVPlacement.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4NistManager.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4ICRU90StoppingData.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4NistElementBuilder.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4NistMaterialBuilder.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4Pow.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4Exp.hh \
+ /home/emmanuel/myworkdir/simTENIS/TENISMaterials.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4MaterialPropertiesTable.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4Material.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4OpticalSurface.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4Physics2DVector.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4Physics2DVector.icc \
+ /home/emmanuel/geant4-install/include/Geant4/G4SurfaceProperty.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4Element.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4MaterialTable.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4MaterialPropertyVector.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4UnitsTable.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4UnitsTable.icc \
+ /home/emmanuel/geant4-install/include/Geant4/G4ThreeVector.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4OpBoundaryProcess.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4OpticalPhoton.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4OpticalSurface.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4RandomTools.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4RandomDirection.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4VDiscreteProcess.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4Scintillation.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4EmSaturation.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4VRestDiscreteProcess.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4Track.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4ParticleDefinition.hh

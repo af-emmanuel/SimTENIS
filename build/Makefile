@@ -190,6 +190,30 @@ TENISEvent.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/exeTENIS.dir/build.make CMakeFiles/exeTENIS.dir/TENISEvent.cc.s
 .PHONY : TENISEvent.cc.s
 
+TENISMaterials.o: TENISMaterials.cc.o
+.PHONY : TENISMaterials.o
+
+# target to build an object file
+TENISMaterials.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exeTENIS.dir/build.make CMakeFiles/exeTENIS.dir/TENISMaterials.cc.o
+.PHONY : TENISMaterials.cc.o
+
+TENISMaterials.i: TENISMaterials.cc.i
+.PHONY : TENISMaterials.i
+
+# target to preprocess a source file
+TENISMaterials.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exeTENIS.dir/build.make CMakeFiles/exeTENIS.dir/TENISMaterials.cc.i
+.PHONY : TENISMaterials.cc.i
+
+TENISMaterials.s: TENISMaterials.cc.s
+.PHONY : TENISMaterials.s
+
+# target to generate assembly for a file
+TENISMaterials.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exeTENIS.dir/build.make CMakeFiles/exeTENIS.dir/TENISMaterials.cc.s
+.PHONY : TENISMaterials.cc.s
+
 TENISSteppingAction.o: TENISSteppingAction.cc.o
 .PHONY : TENISSteppingAction.o
 
@@ -350,6 +374,9 @@ help:
 	@echo "... TENISEvent.o"
 	@echo "... TENISEvent.i"
 	@echo "... TENISEvent.s"
+	@echo "... TENISMaterials.o"
+	@echo "... TENISMaterials.i"
+	@echo "... TENISMaterials.s"
 	@echo "... TENISSteppingAction.o"
 	@echo "... TENISSteppingAction.i"
 	@echo "... TENISSteppingAction.s"

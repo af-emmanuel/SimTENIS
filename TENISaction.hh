@@ -3,6 +3,8 @@
 
 #include "G4VUserActionInitialization.hh"
 #include "TENISgenerator.hh"
+#include "TENISSteppingAction.hh"
+#include "TENISEvent.hh"
 
 
 class TENISActionInitialization: public G4VUserActionInitialization

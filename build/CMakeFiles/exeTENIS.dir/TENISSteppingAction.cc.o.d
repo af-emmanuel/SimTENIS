@@ -393,6 +393,85 @@ CMakeFiles/exeTENIS.dir/TENISSteppingAction.cc.o: \
  /home/emmanuel/geant4-install/include/Geant4/G4Pow.hh \
  /home/emmanuel/geant4-install/include/Geant4/G4Exp.hh \
  /home/emmanuel/geant4-install/include/Geant4/G4SystemOfUnits.hh \
+ /home/emmanuel/myworkdir/simTENIS/TENISMaterials.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4MaterialPropertiesTable.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4Material.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4OpticalSurface.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4Physics2DVector.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4Physics2DVector.icc \
+ /home/emmanuel/geant4-install/include/Geant4/G4SurfaceProperty.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4Element.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4MaterialTable.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4MaterialPropertyVector.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4UnitsTable.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4UnitsTable.icc \
+ /home/emmanuel/geant4-install/include/Geant4/G4ThreeVector.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4OpBoundaryProcess.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4OpticalPhoton.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4OpticalSurface.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4RandomTools.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4RandomDirection.hh \
+ /home/emmanuel/geant4-install/include/Geant4/Randomize.hh \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/Randomize.h \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/DualRand.h \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandomEngine.h \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandomEngine.icc \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/JamesRandom.h \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/MixMaxRng.h \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/MTwistEngine.h \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RanecuEngine.h \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RanluxEngine.h \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/Ranlux64Engine.h \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RanluxppEngine.h \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RanshiEngine.h \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandBinomial.h \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/Random.h \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/Random.icc \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Utility/memory.h \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandBinomial.icc \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandBreitWigner.h \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandFlat.h \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Utility/thread_local.h \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandFlat.icc \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandBreitWigner.icc \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandChiSquare.h \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandChiSquare.icc \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandExponential.h \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandExponential.icc \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandExpZiggurat.h \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandBit.h \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandBit.icc \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandGamma.h \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandGamma.icc \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandGauss.h \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandGauss.icc \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandGaussQ.h \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandGaussQ.icc \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandGaussZiggurat.h \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandGeneral.h \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandGeneral.icc \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandLandau.h \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandLandau.icc \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandPoissonQ.h \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandPoisson.h \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandPoisson.icc \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandPoissonQ.icc \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandStudentT.h \
+ /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandStudentT.icc \
+ /home/emmanuel/geant4-install/include/Geant4/G4VDiscreteProcess.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4VProcess.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4PhysicsTable.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4PhysicsTable.icc \
+ /home/emmanuel/geant4-install/include/Geant4/G4VParticleChange.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4VParticleChange.icc \
+ /home/emmanuel/geant4-install/include/Geant4/G4ForceCondition.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4GPILSelection.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4ParticleChange.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4ParticleChange.icc \
+ /home/emmanuel/geant4-install/include/Geant4/G4ProcessType.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4Scintillation.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4EmSaturation.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4VRestDiscreteProcess.hh \
  /home/emmanuel/myworkdir/simTENIS/TENISEvent.hh \
  /home/emmanuel/geant4-install/include/Geant4/G4UserEventAction.hh \
  /home/emmanuel/geant4-install/include/Geant4/G4Event.hh \
@@ -474,4 +553,6 @@ CMakeFiles/exeTENIS.dir/TENISSteppingAction.cc.o: \
  /home/emmanuel/geant4-install/include/Geant4/G4GenericFileManager.icc \
  /home/emmanuel/myworkdir/simTENIS/run.hh \
  /home/emmanuel/geant4-install/include/Geant4/G4UserRunAction.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4Run.hh
+ /home/emmanuel/geant4-install/include/Geant4/G4Run.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4Track.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4ParticleDefinition.hh

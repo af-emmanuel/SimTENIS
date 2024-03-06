@@ -16,4 +16,9 @@ void TENISActionInitialization::Build() const
     TENISRunAction*runact=new TENISRunAction();
     SetUserAction(runact);
 
+    TENISEventAction*eventAction=new TENISEventAction(runact);
+    SetUserAction(eventAction);
+
+    TENISSteppingAction*steppingAction=new TENISSteppingAction(eventAction);
+    SetUserAction(steppingAction);
 }

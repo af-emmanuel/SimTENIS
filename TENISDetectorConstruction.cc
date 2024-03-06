@@ -1,15 +1,22 @@
 #include "TENISDetectorConstruction.hh"
 
-TENISDetectorConstruction::TENISDetectorConstruction(){}
+TENISDetectorConstruction::TENISDetectorConstruction(){
+    tenmat=new TENISMaterials(); //instance of the material class
+}
 
-TENISDetectorConstruction::~TENISDetectorConstruction(){}
+TENISDetectorConstruction::~TENISDetectorConstruction(){
+    delete tenmat;
+}
 
 G4VPhysicalVolume *TENISDetectorConstruction::Construct()
-{
+{   
+    
 
     G4NistManager*nist = G4NistManager::Instance();
 
-    G4Material *worldMat = nist->FindOrBuildMaterial("G4_AIR");
+    //G4Material *worldMat = nist->FindOrBuildMaterial("G4_AIR");
+    //air=tenmat->Air;
+    G4Material *worldMat =tenmat->GetMaterial("BN_ceramic");
 
     G4Box *solidWorld = new G4Box("solidWorld",0.5*m,0.5*m,0.5*m);
 

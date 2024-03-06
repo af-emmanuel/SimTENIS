@@ -3,6 +3,7 @@
 
 #include "G4UserRunAction.hh"
 #include "G4AnalysisManager.hh"
+#include "G4Run.hh"
 
 class TENISRunAction: public G4UserRunAction
 {
