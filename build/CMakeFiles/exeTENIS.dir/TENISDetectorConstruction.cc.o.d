@@ -468,4 +468,6 @@ CMakeFiles/exeTENIS.dir/TENISDetectorConstruction.cc.o: \
  /home/emmanuel/geant4-install/include/Geant4/G4ProcessType.hh \
  /home/emmanuel/geant4-install/include/Geant4/G4Scintillation.hh \
  /home/emmanuel/geant4-install/include/Geant4/G4EmSaturation.hh \
- /home/emmanuel/geant4-install/include/Geant4/G4VRestDiscreteProcess.hh
+ /home/emmanuel/geant4-install/include/Geant4/G4VRestDiscreteProcess.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4Tubs.hh \
+ /home/emmanuel/geant4-install/include/Geant4/G4Tubs.icc

@@ -525,7 +525,9 @@ CMakeFiles/exeTENIS.dir/TENISDetectorConstruction.cc.o: ../TENISDetectorConstruc
   /home/emmanuel/geant4-install/include/Geant4/G4ProcessType.hh \
   /home/emmanuel/geant4-install/include/Geant4/G4Scintillation.hh \
   /home/emmanuel/geant4-install/include/Geant4/G4EmSaturation.hh \
-  /home/emmanuel/geant4-install/include/Geant4/G4VRestDiscreteProcess.hh
+  /home/emmanuel/geant4-install/include/Geant4/G4VRestDiscreteProcess.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Tubs.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Tubs.icc
 
 CMakeFiles/exeTENIS.dir/TENISEvent.cc.o: ../TENISEvent.cc \
   /usr/include/stdc-predef.h \
@@ -3776,7 +3778,359 @@ CMakeFiles/exeTENIS.dir/TENISphys.cc.o: ../TENISphys.cc \
   /home/emmanuel/geant4-install/include/Geant4/G4ThreeVector.hh \
   /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/ThreeVector.h \
   /home/emmanuel/geant4-install/include/Geant4/CLHEP/Utility/defs.h \
-  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/ThreeVector.icc
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/ThreeVector.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4HadronPhysicsQGSP_BIC_HP.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4HadronPhysicsQGSP_BIC.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4HadronInelasticQBBC.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4VHadronPhysics.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4CrossSectionInelastic.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4VCrossSectionDataSet.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4DynamicParticle.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Allocator.hh \
+  /usr/include/c++/11/cstddef \
+  /home/emmanuel/geant4-install/include/Geant4/G4AllocatorPool.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4ElectronOccupancy.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Log.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4LorentzVector.hh \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/LorentzVector.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/LorentzVector.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4ParticleMomentum.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4DynamicParticle.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4Element.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4ElementTable.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4ElementVector.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4IonisParamElm.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Isotope.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4IsotopeVector.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4HadronicInteraction.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4HadFinalState.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4HadSecondary.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4LorentzRotation.hh \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/LorentzRotation.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/RotationInterfaces.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/AxisAngle.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/AxisAngle.icc \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/RotationInterfaces.icc \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/Rotation.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/RotationX.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/RotationX.icc \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/RotationY.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/RotationY.icc \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/RotationZ.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/RotationZ.icc \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/Rotation.icc \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/Boost.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/BoostX.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/BoostX.icc \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/BoostY.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/BoostY.icc \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/BoostZ.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/BoostZ.icc \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/Boost.icc \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/LorentzRotation.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4Material.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4IonisParamMat.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4DensityEffectCalculator.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4MaterialPropertiesTable.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4MaterialPropertiesIndex.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4MaterialPropertyVector.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4PhysicsFreeVector.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4PhysicsVector.hh \
+  /usr/include/c++/11/fstream \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
+  /usr/include/c++/11/bits/fstream.tcc \
+  /home/emmanuel/geant4-install/include/Geant4/G4PhysicsVectorType.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4PhysicsVector.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4MaterialTable.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4SandiaTable.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4OrderedTable.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4DataVector.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4DataVector.icc \
+  /usr/include/assert.h \
+  /home/emmanuel/geant4-install/include/Geant4/G4Nucleus.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4ParticleTypes.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4ChargedGeantino.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Geantino.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Gamma.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4OpticalPhoton.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4UnknownParticle.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4MuonPlus.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4MuonMinus.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4TauMinus.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4TauPlus.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Electron.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Positron.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4NeutrinoTau.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4AntiNeutrinoTau.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4NeutrinoMu.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4AntiNeutrinoMu.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4NeutrinoE.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4AntiNeutrinoE.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4PionPlus.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4PionMinus.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4PionZero.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Eta.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4EtaPrime.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4KaonPlus.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4KaonMinus.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4KaonZero.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4AntiKaonZero.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4KaonZeroLong.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4KaonZeroShort.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4DMesonPlus.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4DMesonMinus.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4DMesonZero.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4AntiDMesonZero.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4DsMesonPlus.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4DsMesonMinus.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4JPsi.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Etac.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4BMesonPlus.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4BMesonMinus.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4BMesonZero.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4AntiBMesonZero.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4BsMesonZero.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4AntiBsMesonZero.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Upsilon.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Proton.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Ions.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4AntiProton.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Neutron.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4AntiNeutron.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Lambda.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4SigmaPlus.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4SigmaZero.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4SigmaMinus.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4XiMinus.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4XiZero.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4OmegaMinus.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4AntiLambda.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4AntiSigmaPlus.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4AntiSigmaZero.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4AntiSigmaMinus.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4AntiXiMinus.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4AntiXiZero.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4AntiOmegaMinus.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4LambdacPlus.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4SigmacPlusPlus.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4SigmacPlus.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4SigmacZero.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4XicPlus.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4XicZero.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4OmegacZero.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4AntiLambdacPlus.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4AntiSigmacPlusPlus.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4AntiSigmacPlus.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4AntiSigmacZero.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4AntiXicPlus.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4AntiXicZero.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4AntiOmegacZero.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Lambdab.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4SigmabPlus.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4SigmabZero.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4SigmabMinus.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4XibZero.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4XibMinus.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4OmegabMinus.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4AntiLambdab.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4AntiSigmabPlus.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4AntiSigmabZero.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4AntiSigmabMinus.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4AntiXibZero.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4AntiXibMinus.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4AntiOmegabMinus.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Alpha.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Deuteron.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4He3.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Triton.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4AntiAlpha.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4AntiDeuteron.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4AntiHe3.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4AntiTriton.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4GenericIon.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4ReactionProduct.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4HadProjectile.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4HadronicException.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4ReactionProductVector.hh \
+  /home/emmanuel/geant4-install/include/Geant4/Randomize.hh \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/Randomize.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/DualRand.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandomEngine.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandomEngine.icc \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/JamesRandom.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/MixMaxRng.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/MTwistEngine.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RanecuEngine.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RanluxEngine.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/Ranlux64Engine.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RanluxppEngine.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RanshiEngine.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandBinomial.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/Random.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/Random.icc \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Utility/memory.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandBinomial.icc \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandBreitWigner.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandFlat.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Utility/thread_local.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandFlat.icc \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandBreitWigner.icc \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandChiSquare.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandChiSquare.icc \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandExponential.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandExponential.icc \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandExpZiggurat.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandBit.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandBit.icc \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandGamma.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandGamma.icc \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandGauss.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandGauss.icc \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandGaussQ.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandGaussQ.icc \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandGaussZiggurat.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandGeneral.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandGeneral.icc \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandLandau.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandLandau.icc \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandPoissonQ.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandPoisson.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandPoisson.icc \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandPoissonQ.icc \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandStudentT.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandStudentT.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4Track.hh \
+  /home/emmanuel/geant4-install/include/Geant4/trkdefs.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4LogicalVolume.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4VPhysicalVolume.hh \
+  /home/emmanuel/geant4-install/include/Geant4/geomdefs.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4RotationMatrix.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4VPhysicalVolume.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4LogicalVolume.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4TrackStatus.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4TouchableHandle.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4VTouchable.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4TouchableHistory.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4NavigationHistory.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4AffineTransform.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Transform3D.hh \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Geometry/Transform3D.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Geometry/Transform3D.icc \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Geometry/Point3D.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Geometry/Vector3D.h \
+  /home/emmanuel/geant4-install/include/Geant4/CLHEP/Geometry/Normal3D.h \
+  /home/emmanuel/geant4-install/include/Geant4/G4AffineTransform.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4NavigationLevel.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4NavigationLevelRep.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4NavigationLevelRep.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4NavigationLevel.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4NavigationHistoryPool.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4NavigationHistory.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4TouchableHistory.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4ReferenceCountedHandle.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4VUserTrackInformation.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Profiler.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Profiler.icc \
+  /home/emmanuel/geant4-install/include/Geant4/PTL/Globals.hh \
+  /home/emmanuel/geant4-install/include/Geant4/PTL/Types.hh \
+  /home/emmanuel/geant4-install/include/Geant4/PTL/Utility.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Track.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4Step.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4StepPoint.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4SteppingControl.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4StepStatus.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4StepPoint.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4TrackVector.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Step.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4HadronicProcess.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4VDiscreteProcess.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4VProcess.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4PhysicsTable.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4PhysicsTable.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4VParticleChange.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4VParticleChange.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4ForceCondition.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4GPILSelection.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4ParticleChange.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4ParticleChange.icc \
+  /home/emmanuel/geant4-install/include/Geant4/G4ProcessType.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4EnergyRangeManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4HadronicProcessType.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4CrossSectionDataStore.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4HadXSTypes.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4HadronElasticPhysicsXS.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4HadronElasticPhysics.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4HadronElastic.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4NucleiProperties.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4HadronPhysicsFTFP_BERT_HP.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4HadronPhysicsFTFP_BERT.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4ParticleHPElastic.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4ParticleHPChannel.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4ParticleHPCaptureFS.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4NeutronHPCaptureFS.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4ParticleHPEnAngCorrelation.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4ParticleHPManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4ParticleHPReactionWhiteBoard.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4ParticleHPProduct.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4VParticleHPEnergyAngular.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4ParticleHPVector.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Exp.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4InterpolationManager.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4InterpolationScheme.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4ParticleHPDataPoint.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4ParticleHPHash.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4ParticleHPInterpolator.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4Pow.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4ParticleHPFinalState.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4IonTable.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4ParticleHPNames.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4ParticleHPDataUsed.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4ParticleHPPhotonDist.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4ParticleHPAngularP.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4ParticleHPFastLegendre.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4ParticleHPLegendreTable.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4ParticleHPPartial.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4ParticleHPIsoData.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4StableIsotopes.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4WendtFissionFragmentGenerator.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4FissionFragmentGenerator.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4FFGEnumerations.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4FissionProductYieldDist.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4DynamicParticleVector.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4ENDFTapeRead.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4ENDFYieldDataContainer.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4TableTemplate.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4FFGDefaultValues.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4FPYNubarValues.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4FPYSamplingOps.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4ShiftedGaussian.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4WattFissionSpectrumValues.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4FPYTreeStructures.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4ParticleHPElasticData.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4ParticleHPThermalScattering.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4ParticleHPThermalScatteringNames.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4ParticleHPThermalScatteringData.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4HadronElasticPhysics.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4HadronicProcess.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4IonElasticPhysics.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4IonPhysics.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4StoppingPhysics.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4EmExtraPhysics.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4EmMessenger.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4UImessenger.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4UIdirectory.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4UIcommand.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4ApplicationState.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4UIparameter.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4UItokenNum.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4UIcmdWithABool.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4UIcmdWithADouble.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4UIcmdWithAString.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4UIcmdWithADoubleAndUnit.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4IonPhysicsXS.hh \
+  /home/emmanuel/geant4-install/include/Geant4/G4IonPhysics.hh
 
 CMakeFiles/exeTENIS.dir/run.cc.o: ../run.cc \
   /usr/include/stdc-predef.h \
@@ -5125,8 +5479,6 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /home/emmanuel/geant4-install/include/Geant4/G4VDigi.hh:
 
-/home/emmanuel/geant4-install/include/Geant4/G4VHit.hh:
-
 /home/emmanuel/geant4-install/include/Geant4/G4VModelFactory.hh:
 
 /home/emmanuel/geant4-install/include/Geant4/G4VisExecutive.icc:
@@ -5140,8 +5492,6 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 /home/emmanuel/geant4-install/include/Geant4/G4THitsMap.hh:
 
 /home/emmanuel/geant4-install/include/Geant4/G4Voxelizer.icc:
-
-/home/emmanuel/geant4-install/include/Geant4/windefs.hh:
 
 /home/emmanuel/geant4-install/include/Geant4/G4VFacet.hh:
 
@@ -5161,15 +5511,11 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /home/emmanuel/geant4-install/include/Geant4/G4Orb.hh:
 
-/home/emmanuel/geant4-install/include/Geant4/G4Cons.icc:
-
 /home/emmanuel/geant4-install/include/Geant4/G4Cons.hh:
 
 /home/emmanuel/geant4-install/include/Geant4/G4ViewParameters.icc:
 
 /home/emmanuel/geant4-install/include/Geant4/G4VMarker.icc:
-
-/home/emmanuel/geant4-install/include/Geant4/CLHEP/Geometry/Plane3D.h:
 
 /home/emmanuel/geant4-install/include/Geant4/G4Vector3D.hh:
 
@@ -5197,8 +5543,6 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /home/emmanuel/geant4-install/include/Geant4/G4ModelingParameters.hh:
 
-/home/emmanuel/geant4-install/include/Geant4/G4VGraphicsSystem.hh:
-
 /home/emmanuel/geant4-install/include/Geant4/G4GraphicsSystemList.hh:
 
 /home/emmanuel/geant4-install/include/Geant4/G4VisManager.hh:
@@ -5214,6 +5558,218 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 /home/emmanuel/geant4-install/include/Geant4/G4Scene.icc:
 
 ../run.cc:
+
+/home/emmanuel/geant4-install/include/Geant4/G4UIcmdWithADoubleAndUnit.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4UIcmdWithADouble.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4EmMessenger.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4StoppingPhysics.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4ParticleHPThermalScatteringData.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4ParticleHPThermalScatteringNames.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4ParticleHPThermalScattering.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4FPYTreeStructures.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4WattFissionSpectrumValues.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4FPYSamplingOps.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4ENDFYieldDataContainer.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4ENDFTapeRead.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4DynamicParticleVector.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4FissionProductYieldDist.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4ParticleHPLegendreTable.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4ParticleHPPhotonDist.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4ParticleHPDataUsed.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4IonTable.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4ParticleHPFinalState.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4InterpolationScheme.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4InterpolationManager.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4ParticleHPProduct.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4ParticleHPManager.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4NeutronHPCaptureFS.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4ParticleHPCaptureFS.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4ParticleHPChannel.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4Cons.icc:
+
+/home/emmanuel/geant4-install/include/Geant4/G4ParticleHPElastic.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4HadronPhysicsFTFP_BERT_HP.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4HadronElastic.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4FissionFragmentGenerator.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4HadronElasticPhysics.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4CrossSectionDataStore.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4HadronicProcessType.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4EnergyRangeManager.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4VGraphicsSystem.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4HadronicProcess.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4HadronicException.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4He3.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4AntiSigmabMinus.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4IonPhysics.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4AntiSigmabPlus.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4AntiLambdab.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4OmegabMinus.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4XibMinus.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4SigmabMinus.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4AntiOmegacZero.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4AntiXicZero.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4AntiXicPlus.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4AntiSigmacZero.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4AntiLambdacPlus.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4OmegacZero.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4SigmacPlusPlus.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4AntiOmegaMinus.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4AntiXiMinus.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4AntiSigmaPlus.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4AntiLambda.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4OmegaMinus.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4XiZero.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4XiMinus.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4SigmaPlus.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4Ions.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4AntiBMesonZero.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4FFGDefaultValues.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4VParticleHPEnergyAngular.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4BMesonMinus.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/CLHEP/Geometry/Plane3D.h:
+
+/home/emmanuel/geant4-install/include/Geant4/G4BMesonPlus.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4VHit.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4Etac.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4DsMesonPlus.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4AntiDMesonZero.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4DMesonZero.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4UIcmdWithAString.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4Triton.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4KaonZeroShort.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4KaonZeroLong.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4AntiKaonZero.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4KaonPlus.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4EtaPrime.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4FFGEnumerations.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4PionZero.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4AntiNeutrinoE.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4AntiSigmacPlus.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4NeutrinoE.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4AntiNeutrinoMu.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4NeutrinoTau.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4MuonMinus.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4UnknownParticle.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4Gamma.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4ChargedGeantino.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4ParticleTypes.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/Boost.icc:
+
+/home/emmanuel/geant4-install/include/Geant4/G4FPYNubarValues.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/BoostZ.icc:
+
+/home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/BoostZ.h:
+
+/home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/BoostY.h:
+
+/home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/LorentzRotation.h:
+
+/home/emmanuel/geant4-install/include/Geant4/G4LorentzRotation.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4AntiXiZero.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4HadronicInteraction.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4VCrossSectionDataSet.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/windefs.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4HadronInelasticQBBC.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4HadronPhysicsQGSP_BIC.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4HadronPhysicsQGSP_BIC_HP.hh:
 
 /home/emmanuel/geant4-install/include/Geant4/G4OpticalParameters.hh:
 
@@ -5261,6 +5817,8 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /usr/include/c++/11/regex:
 
+/home/emmanuel/geant4-install/include/Geant4/G4Positron.hh:
+
 /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h:
 
 /usr/include/x86_64-linux-gnu/bits/ss_flags.h:
@@ -5290,6 +5848,8 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 /usr/include/fenv.h:
 
 /usr/include/c++/11/cfenv:
+
+/home/emmanuel/geant4-install/include/Geant4/G4AntiSigmacPlusPlus.hh:
 
 /usr/include/linux/close_range.h:
 
@@ -5327,9 +5887,13 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 ../TENISgenerator.cc:
 
+/home/emmanuel/geant4-install/include/Geant4/G4ParticleHPInterpolator.hh:
+
 /home/emmanuel/geant4-install/include/Geant4/G4UserTrackingAction.hh:
 
 /home/emmanuel/geant4-install/include/Geant4/G4VSteppingVerbose.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4ShiftedGaussian.hh:
 
 /home/emmanuel/geant4-install/include/Geant4/G4TrackingManager.hh:
 
@@ -5351,6 +5915,8 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /home/emmanuel/geant4-install/include/Geant4/G4EventManager.hh:
 
+/home/emmanuel/geant4-install/include/Geant4/G4HadronElasticPhysicsXS.hh:
+
 /home/emmanuel/geant4-install/include/Geant4/G4GeneralParticleSourceData.hh:
 
 /home/emmanuel/geant4-install/include/Geant4/G4SPSEneDistribution.hh:
@@ -5364,6 +5930,8 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 /home/emmanuel/geant4-install/include/Geant4/G4SPSRandomGenerator.hh:
 
 /home/emmanuel/geant4-install/include/Geant4/G4VExternalNavigation.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4JPsi.hh:
 
 /home/emmanuel/geant4-install/include/Geant4/G4RegularNavigation.hh:
 
@@ -5383,7 +5951,11 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /home/emmanuel/geant4-install/include/Geant4/G4SmartVoxelHeader.icc:
 
+/home/emmanuel/geant4-install/include/Geant4/G4ParticleHPEnAngCorrelation.hh:
+
 /home/emmanuel/geant4-install/include/Geant4/G4SmartVoxelProxy.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4Deuteron.hh:
 
 /home/emmanuel/geant4-install/include/Geant4/G4BlockingList.icc:
 
@@ -5409,13 +5981,19 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /home/emmanuel/geant4-install/include/Geant4/G4TrajectoryFilterFactories.hh:
 
+/home/emmanuel/geant4-install/include/Geant4/G4SigmabZero.hh:
+
 /home/emmanuel/geant4-install/include/Geant4/G4VUserPrimaryGeneratorAction.hh:
 
 /home/emmanuel/geant4-install/include/Geant4/G4VUserActionInitialization.hh:
 
+/home/emmanuel/geant4-install/include/Geant4/G4Eta.hh:
+
 /usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
 
 ../TENISaction.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4MuonPlus.hh:
 
 ../TENISaction.cc:
 
@@ -5435,21 +6013,23 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /home/emmanuel/geant4-install/include/Geant4/G4GenericAnalysisManager.icc:
 
+/home/emmanuel/geant4-install/include/Geant4/G4BMesonZero.hh:
+
 /home/emmanuel/geant4-install/include/Geant4/G4ToolsAnalysisManager.icc:
 
 /home/emmanuel/geant4-install/include/Geant4/tools/histo/p2:
 
 /home/emmanuel/geant4-install/include/Geant4/tools/histo/p1:
 
+/home/emmanuel/geant4-install/include/Geant4/G4DsMesonMinus.hh:
+
 /home/emmanuel/geant4-install/include/Geant4/G4SPSAngDistribution.hh:
 
 /home/emmanuel/geant4-install/include/Geant4/tools/histo/b3:
 
+/home/emmanuel/geant4-install/include/Geant4/G4AntiSigmaZero.hh:
+
 /home/emmanuel/geant4-install/include/Geant4/tools/histo/h3d:
-
-/home/emmanuel/geant4-install/include/Geant4/G4Tubs.hh:
-
-/home/emmanuel/geant4-install/include/Geant4/tools/histo/axis:
 
 /home/emmanuel/geant4-install/include/Geant4/tools/histo/histo_data:
 
@@ -5479,9 +6059,13 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /home/emmanuel/geant4-install/include/Geant4/G4THnManager.icc:
 
+/home/emmanuel/geant4-install/include/Geant4/G4Upsilon.hh:
+
 /home/emmanuel/geant4-install/include/Geant4/G4THnToolsManager.hh:
 
 /home/emmanuel/geant4-install/include/Geant4/G4TH1ToolsManager.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4AntiAlpha.hh:
 
 /home/emmanuel/geant4-install/include/Geant4/G4VTHnFileManager.hh:
 
@@ -5511,6 +6095,8 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /home/emmanuel/geant4-install/include/Geant4/G4VAnalysisManager.icc:
 
+/home/emmanuel/geant4-install/include/Geant4/G4BinScheme.hh:
+
 /usr/include/string.h:
 
 /usr/include/x86_64-linux-gnu/bits/environments.h:
@@ -5525,6 +6111,10 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
 
+/home/emmanuel/geant4-install/include/Geant4/G4AntiNeutron.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/BoostY.icc:
+
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
 /home/emmanuel/geant4-install/include/Geant4/G4TP1ToolsManager.hh:
@@ -5537,9 +6127,13 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /home/emmanuel/geant4-install/include/Geant4/G4Sphere.hh:
 
+/home/emmanuel/geant4-install/include/Geant4/G4IonPhysicsXS.hh:
+
 /usr/include/c++/11/bits/ptr_traits.h:
 
 /usr/include/c++/11/bits/enable_special_members.h:
+
+/home/emmanuel/geant4-install/include/Geant4/G4ParticleHPDataPoint.hh:
 
 /usr/include/c++/11/bits/basic_ios.tcc:
 
@@ -5557,6 +6151,8 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /usr/include/c++/11/bits/hashtable.h:
 
+/home/emmanuel/geant4-install/include/Geant4/G4AntiXibMinus.hh:
+
 /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/MTwistEngine.h:
 
 /usr/include/c++/11/bits/refwrap.h:
@@ -5571,6 +6167,8 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /usr/include/c++/11/array:
 
+/home/emmanuel/geant4-install/include/Geant4/G4HadProjectile.hh:
+
 /usr/include/c++/11/tr1/beta_function.tcc:
 
 /usr/include/c++/11/bits/stl_heap.h:
@@ -5580,6 +6178,8 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandGauss.h:
 
 /usr/include/c++/11/pstl/execution_defs.h:
+
+/home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/Boost.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h:
 
@@ -5605,6 +6205,8 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /home/emmanuel/geant4-install/include/Geant4/G4Orb.icc:
 
+/home/emmanuel/geant4-install/include/Geant4/G4EmExtraPhysics.hh:
+
 /usr/include/c++/11/bits/this_thread_sleep.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
@@ -5621,6 +6223,8 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /usr/include/c++/11/bits/uniform_int_dist.h:
 
+/home/emmanuel/geant4-install/include/Geant4/G4ReactionProductVector.hh:
+
 /usr/include/c++/11/stdexcept:
 
 /usr/include/c++/11/pstl/glue_algorithm_defs.h:
@@ -5635,6 +6239,8 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /home/emmanuel/geant4-install/include/Geant4/G4TrackStatus.hh:
 
+/home/emmanuel/geant4-install/include/Geant4/G4AntiHe3.hh:
+
 /usr/include/c++/11/cstddef:
 
 /home/emmanuel/geant4-install/include/Geant4/icomsdefs.hh:
@@ -5643,9 +6249,13 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h:
 
+/home/emmanuel/geant4-install/include/Geant4/G4GenericIon.hh:
+
 /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RanluxEngine.h:
 
 /usr/include/wctype.h:
+
+/home/emmanuel/geant4-install/include/Geant4/G4KaonMinus.hh:
 
 /usr/include/sched.h:
 
@@ -5707,6 +6317,8 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /usr/include/c++/11/bits/ostream_insert.h:
 
+/home/emmanuel/geant4-install/include/Geant4/G4AntiDeuteron.hh:
+
 /home/emmanuel/geant4-install/include/Geant4/G4HnInformation.hh:
 
 /usr/include/x86_64-linux-gnu/bits/uio_lim.h:
@@ -5714,6 +6326,8 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h:
 
 /home/emmanuel/geant4-install/include/Geant4/G4Polycone.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4ParticleHPHash.hh:
 
 /home/emmanuel/geant4-install/include/Geant4/G4String.icc:
 
@@ -5724,6 +6338,8 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
 /home/emmanuel/geant4-install/include/Geant4/G4OpenGLQt.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4AntiOmegabMinus.hh:
 
 /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/AxisAngle.icc:
 
@@ -5751,6 +6367,8 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /usr/include/c++/11/bits/unordered_map.h:
 
+/home/emmanuel/geant4-install/include/Geant4/G4TauMinus.hh:
+
 /usr/include/c++/11/bits/regex_automaton.tcc:
 
 /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/LorentzVector.icc:
@@ -5758,6 +6376,8 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
 
 /usr/include/asm-generic/errno.h:
+
+/home/emmanuel/geant4-install/include/Geant4/G4SigmaZero.hh:
 
 /usr/include/c++/11/bits/list.tcc:
 
@@ -5769,9 +6389,13 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /usr/include/c++/11/unordered_map:
 
+/home/emmanuel/geant4-install/include/Geant4/G4Proton.hh:
+
 /usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
 
 /usr/include/x86_64-linux-gnu/bits/locale.h:
+
+/home/emmanuel/geant4-install/include/Geant4/G4CrossSectionInelastic.hh:
 
 /home/emmanuel/geant4-install/include/Geant4/CLHEP/Geometry/Normal3D.h:
 
@@ -5807,6 +6431,8 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /home/emmanuel/geant4-install/include/Geant4/G4UnitsTable.hh:
 
+/home/emmanuel/geant4-install/include/Geant4/G4StableIsotopes.hh:
+
 /home/emmanuel/geant4-install/include/Geant4/G4VUserDetectorConstruction.hh:
 
 /usr/include/c++/11/ext/aligned_buffer.h:
@@ -5824,6 +6450,8 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 /home/emmanuel/geant4-install/include/Geant4/G4VPrimaryGenerator.hh:
 
 /usr/include/c++/11/bits/concept_check.h:
+
+/home/emmanuel/geant4-install/include/Geant4/G4LambdacPlus.hh:
 
 /usr/include/c++/11/cstring:
 
@@ -5873,6 +6501,8 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /usr/include/c++/11/bits/std_thread.h:
 
+/home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/LorentzRotation.icc:
+
 /home/emmanuel/geant4-install/include/Geant4/trkdefs.hh:
 
 /home/emmanuel/geant4-install/include/Geant4/G4Box.icc:
@@ -5882,10 +6512,6 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 /usr/include/x86_64-linux-gnu/bits/sigcontext.h:
 
 /home/emmanuel/geant4-install/include/Geant4/G4VDigiCollection.hh:
-
-/home/emmanuel/geant4-install/include/Geant4/G4Tubs.icc:
-
-/usr/include/ctype.h:
 
 /home/emmanuel/geant4-install/include/Geant4/G4Navigator.hh:
 
@@ -5898,6 +6524,10 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h:
 
 /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandBinomial.icc:
+
+/home/emmanuel/geant4-install/include/Geant4/G4AntiTriton.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4AntiXibZero.hh:
 
 /usr/include/c++/11/bits/ostream.tcc:
 
@@ -5915,6 +6545,8 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
+/home/emmanuel/geant4-install/include/Geant4/G4ParticleHPPartial.hh:
+
 /usr/include/c++/11/bits/stl_tempbuf.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
@@ -5928,6 +6560,8 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 
 /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandBreitWigner.h:
+
+/home/emmanuel/geant4-install/include/Geant4/G4BsMesonZero.hh:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
@@ -5943,11 +6577,15 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /usr/include/c++/11/complex:
 
+/home/emmanuel/geant4-install/include/Geant4/G4DMesonMinus.hh:
+
 /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h:
 
 /home/emmanuel/geant4-install/include/Geant4/G4Allocator.hh:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+
+/home/emmanuel/geant4-install/include/Geant4/G4SigmaMinus.hh:
 
 /usr/include/c++/11/bits/stl_iterator.h:
 
@@ -5973,6 +6611,8 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
+/home/emmanuel/geant4-install/include/Geant4/G4XibZero.hh:
+
 /home/emmanuel/geant4-install/include/Geant4/G4DensityEffectCalculator.hh:
 
 /usr/include/pthread.h:
@@ -5982,6 +6622,8 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
 
 /usr/include/stdlib.h:
+
+/home/emmanuel/geant4-install/include/Geant4/G4VHadronPhysics.hh:
 
 /home/emmanuel/geant4-install/include/Geant4/G4SPSPosDistribution.hh:
 
@@ -5993,6 +6635,8 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /usr/include/c++/11/chrono:
 
+/home/emmanuel/geant4-install/include/Geant4/G4Nucleus.hh:
+
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
@@ -6002,6 +6646,8 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
 
 /usr/include/c++/11/limits:
+
+/home/emmanuel/geant4-install/include/Geant4/G4Neutron.hh:
 
 /usr/include/x86_64-linux-gnu/bits/signal_ext.h:
 
@@ -6019,6 +6665,8 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /usr/include/c++/11/type_traits:
 
+/home/emmanuel/geant4-install/include/Geant4/G4TableTemplate.hh:
+
 /usr/include/c++/11/pstl/pstl_config.h:
 
 /home/emmanuel/geant4-install/include/Geant4/G4ReferenceCountedHandle.hh:
@@ -6032,6 +6680,8 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 /usr/include/linux/limits.h:
 
 /usr/include/c++/11/bits/shared_ptr_base.h:
+
+/home/emmanuel/geant4-install/include/Geant4/G4PionPlus.hh:
 
 /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandGaussQ.icc:
 
@@ -6049,6 +6699,8 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /usr/include/c++/11/bits/exception_defines.h:
 
+/home/emmanuel/geant4-install/include/Geant4/G4HadSecondary.hh:
+
 /usr/include/c++/11/ext/type_traits.h:
 
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
@@ -6064,6 +6716,8 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 /home/emmanuel/geant4-install/include/Geant4/G4VParticleChange.hh:
 
 /usr/include/c++/11/bits/predefined_ops.h:
+
+/home/emmanuel/geant4-install/include/Geant4/G4ParticleHPAngularP.hh:
 
 /usr/include/c++/11/algorithm:
 
@@ -6125,6 +6779,8 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /home/emmanuel/geant4-install/include/Geant4/G4DigiFilterFactories.hh:
 
+/home/emmanuel/geant4-install/include/Geant4/G4UIcmdWithABool.hh:
+
 /usr/include/c++/11/bits/hash_bytes.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h:
@@ -6171,6 +6827,8 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /home/emmanuel/geant4-install/include/Geant4/G4DAWNFILE.hh:
 
+/home/emmanuel/geant4-install/include/Geant4/G4KaonZero.hh:
+
 /home/emmanuel/geant4-install/include/Geant4/geomdefs.hh:
 
 /usr/include/c++/11/bits/localefwd.h:
@@ -6189,9 +6847,15 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /home/emmanuel/geant4-install/include/Geant4/G4GeomTypes.hh:
 
+/home/emmanuel/geant4-install/include/Geant4/G4AntiProton.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4AntiNeutrinoTau.hh:
+
 /usr/include/c++/11/sstream:
 
 /usr/include/c++/11/istream:
+
+/home/emmanuel/geant4-install/include/Geant4/G4SigmacZero.hh:
 
 /usr/include/c++/11/typeinfo:
 
@@ -6231,6 +6895,8 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /home/emmanuel/geant4-install/include/Geant4/G4Isotope.hh:
 
+/home/emmanuel/geant4-install/include/Geant4/G4Lambdab.hh:
+
 /usr/include/c++/11/bits/stl_algobase.h:
 
 /usr/include/c++/11/cwchar:
@@ -6243,11 +6909,15 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /usr/include/x86_64-linux-gnu/bits/local_lim.h:
 
+/home/emmanuel/geant4-install/include/Geant4/G4ParticleHPElasticData.hh:
+
 ../TENISphys.cc:
 
 /usr/include/x86_64-linux-gnu/bits/wchar.h:
 
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+
+/home/emmanuel/geant4-install/include/Geant4/G4Electron.hh:
 
 ../TENISDetectorConstruction.cc:
 
@@ -6267,11 +6937,15 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandExponential.icc:
 
+/home/emmanuel/geant4-install/include/Geant4/G4HadronPhysicsFTFP_BERT.hh:
+
 /usr/include/c++/11/exception:
 
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
 /usr/include/wchar.h:
+
+/home/emmanuel/geant4-install/include/Geant4/G4SigmacPlus.hh:
 
 /usr/include/c++/11/bits/cxxabi_init_exception.h:
 
@@ -6293,6 +6967,10 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /home/emmanuel/geant4-install/include/Geant4/G4Exception.hh:
 
+/home/emmanuel/geant4-install/include/Geant4/tools/histo/axis:
+
+/home/emmanuel/geant4-install/include/Geant4/G4Tubs.hh:
+
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocessordetection.h:
 
 /usr/include/c++/11/deque:
@@ -6302,6 +6980,8 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 /home/emmanuel/geant4-install/include/Geant4/G4EnvironmentUtils.hh:
 
 /usr/include/c++/11/bits/locale_facets_nonio.h:
+
+/home/emmanuel/geant4-install/include/Geant4/G4Alpha.hh:
 
 /usr/include/c++/11/ctime:
 
@@ -6355,13 +7035,19 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /usr/include/c++/11/bits/stl_map.h:
 
+/home/emmanuel/geant4-install/include/Geant4/G4ParticleHPNames.hh:
+
 /usr/include/c++/11/locale:
 
 /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/RotationX.h:
 
 /usr/include/c++/11/mutex:
 
+/home/emmanuel/geant4-install/include/Geant4/G4HadFinalState.hh:
+
 /home/emmanuel/geant4-install/include/Geant4/G4Visible.icc:
+
+/home/emmanuel/geant4-install/include/Geant4/G4XicPlus.hh:
 
 /usr/include/c++/11/cwctype:
 
@@ -6375,6 +7061,8 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /usr/include/c++/11/condition_variable:
 
+/home/emmanuel/geant4-install/include/Geant4/G4Geantino.hh:
+
 /home/emmanuel/geant4-install/include/Geant4/G4THnToolsManager.icc:
 
 /usr/include/c++/11/thread:
@@ -6382,6 +7070,8 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 /usr/include/c++/11/bits/parse_numbers.h:
 
 /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandomEngine.icc:
+
+/home/emmanuel/geant4-install/include/Geant4/G4WendtFissionFragmentGenerator.hh:
 
 /home/emmanuel/geant4-install/include/Geant4/G4RotationMatrix.hh:
 
@@ -6475,6 +7165,8 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /usr/include/c++/11/bit:
 
+/home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/BoostX.icc:
+
 /usr/include/c++/11/bits/shared_ptr_atomic.h:
 
 /usr/include/c++/11/pstl/glue_memory_defs.h:
@@ -6494,6 +7186,8 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h:
 
 /home/emmanuel/geant4-install/include/Geant4/HepPolyhedron.h:
+
+/home/emmanuel/geant4-install/include/Geant4/G4ParticleHPFastLegendre.hh:
 
 /usr/include/c++/11/iomanip:
 
@@ -6515,6 +7209,8 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /home/emmanuel/geant4-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h:
 
+/home/emmanuel/geant4-install/include/Geant4/G4Lambda.hh:
+
 /home/emmanuel/geant4-install/include/Geant4/G4Transform3D.hh:
 
 /usr/include/c++/11/tr1/poly_hermite.tcc:
@@ -6529,7 +7225,11 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /home/emmanuel/geant4-install/include/Geant4/CLHEP/Geometry/Vector3D.h:
 
+/home/emmanuel/geant4-install/include/Geant4/G4ReactionProduct.hh:
+
 /home/emmanuel/geant4-install/include/Geant4/G4PVPlacement.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4NeutrinoMu.hh:
 
 /home/emmanuel/geant4-install/include/Geant4/G4ICRU90StoppingData.hh:
 
@@ -6550,6 +7250,8 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 /home/emmanuel/geant4-install/include/Geant4/Randomize.hh:
 
 /home/emmanuel/geant4-install/include/Geant4/G4PhysicsVector.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4AntiBsMesonZero.hh:
 
 /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/RotationY.icc:
 
@@ -6621,6 +7323,8 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /home/emmanuel/geant4-install/include/Geant4/G4UnitsTable.icc:
 
+/home/emmanuel/geant4-install/include/Geant4/G4TauPlus.hh:
+
 /home/emmanuel/geant4-install/include/Geant4/G4LorentzVector.hh:
 
 /usr/include/c++/11/fstream:
@@ -6641,6 +7345,8 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /home/emmanuel/geant4-install/include/Geant4/G4ParticleDefinition.icc:
 
+/home/emmanuel/geant4-install/include/Geant4/G4NucleiProperties.hh:
+
 /home/emmanuel/geant4-install/include/Geant4/G4RandomTools.hh:
 
 /usr/include/c++/11/bits/erase_if.h:
@@ -6655,6 +7361,8 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RanecuEngine.h:
 
+/home/emmanuel/geant4-install/include/Geant4/G4ParticleHPVector.hh:
+
 /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/Ranlux64Engine.h:
 
 /home/emmanuel/geant4-install/include/Geant4/G4Physics2DVector.hh:
@@ -6662,6 +7370,10 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandBinomial.h:
 
 /home/emmanuel/geant4-install/include/Geant4/CLHEP/Utility/memory.h:
+
+/home/emmanuel/geant4-install/include/Geant4/G4SigmabPlus.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4DMesonPlus.hh:
 
 /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandFlat.h:
 
@@ -6685,6 +7397,8 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /home/emmanuel/geant4-install/include/Geant4/G4DynamicParticle.icc:
 
+/home/emmanuel/geant4-install/include/Geant4/G4ParticleHPIsoData.hh:
+
 /home/emmanuel/geant4-install/include/Geant4/tools/histo/p2d:
 
 /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandBit.icc:
@@ -6694,6 +7408,8 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 /home/emmanuel/geant4-install/include/Geant4/G4GeomSplitter.hh:
 
 /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandGauss.icc:
+
+/home/emmanuel/geant4-install/include/Geant4/G4HadXSTypes.hh:
 
 /home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/LorentzVector.h:
 
@@ -6708,6 +7424,10 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandLandau.icc:
 
 /home/emmanuel/geant4-install/include/Geant4/CLHEP/Random/RandPoisson.h:
+
+/home/emmanuel/geant4-install/include/Geant4/G4ParticleHPReactionWhiteBoard.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4PionMinus.hh:
 
 /home/emmanuel/geant4-install/include/Geant4/G4PhysicsListHelper.hh:
 
@@ -6737,6 +7457,10 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /home/emmanuel/geant4-install/include/Geant4/G4StepPoint.hh:
 
+/usr/include/ctype.h:
+
+/home/emmanuel/geant4-install/include/Geant4/G4Tubs.icc:
+
 /home/emmanuel/geant4-install/include/Geant4/G4AllocatorPool.hh:
 
 /usr/include/x86_64-linux-gnu/bits/sigstack.h:
@@ -6746,6 +7470,10 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 /home/emmanuel/geant4-install/include/Geant4/G4StepStatus.hh:
 
 /home/emmanuel/geant4-install/include/Geant4/G4NavigationHistory.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4IonElasticPhysics.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4AntiSigmabZero.hh:
 
 /home/emmanuel/geant4-install/include/Geant4/CLHEP/Geometry/Point3D.h:
 
@@ -6761,9 +7489,9 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /home/emmanuel/geant4-install/include/Geant4/PTL/Globals.hh:
 
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
-
 /home/emmanuel/geant4-install/include/Geant4/G4Fcn.hh:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
 
 /usr/include/c++/11/set:
 
@@ -6782,6 +7510,8 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 /home/emmanuel/geant4-install/include/Geant4/G4ParticleMomentum.hh:
 
 /home/emmanuel/geant4-install/include/Geant4/G4VUserTrackInformation.hh:
+
+/home/emmanuel/geant4-install/include/Geant4/G4XicZero.hh:
 
 /home/emmanuel/geant4-install/include/Geant4/G4Track.icc:
 
@@ -6829,6 +7559,8 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /home/emmanuel/geant4-install/include/Geant4/G4ToolsAnalysisManager.hh:
 
+/home/emmanuel/geant4-install/include/Geant4/G4AntiSigmaMinus.hh:
+
 /usr/include/x86_64-linux-gnu/sys/select.h:
 
 /home/emmanuel/geant4-install/include/Geant4/G4VAnalysisManager.hh:
@@ -6839,6 +7571,8 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 
 /home/emmanuel/geant4-install/include/Geant4/G4AnalysisVerbose.hh:
 
+/home/emmanuel/geant4-install/include/Geant4/CLHEP/Vector/BoostX.h:
+
 /usr/include/c++/11/bits/vector.tcc:
 
 /home/emmanuel/geant4-install/include/Geant4/G4AnalysisUtilities.hh:
@@ -6846,5 +7580,3 @@ CMakeFiles/exeTENIS.dir/tenis.cc.o: ../tenis.cc \
 /home/emmanuel/geant4-install/include/Geant4/G4VMarker.hh:
 
 /home/emmanuel/geant4-install/include/Geant4/G4VTBaseHnManager.hh:
-
-/home/emmanuel/geant4-install/include/Geant4/G4BinScheme.hh:
