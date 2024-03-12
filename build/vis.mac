@@ -6,9 +6,9 @@
 
 
 /gps/particle neutron
-/gps/pos/centre 0.0 0.0 0.0
-/gps/direction  0. 0. 1.
+/gps/pos/centre 0.0 0.0 8.0 m
+/gps/direction  0. 0. -1.
 
 /gps/energy 0.025 eV
 
-/run/beamOn 2
+/run/beamOn 100
